@@ -762,5 +762,153 @@
 		<key>imageFileNameBase</key>
 		<string>B78</string>
 	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>1848</string>
+		<key>title</key>
+		<string>Fetal skeleton, human skull, and a 14-inch hairball
+Fetal skeleton, human skull, and a 14-inch hairball
+</string>
+		<key>imageFileNameBase</key>
+		<string>C1</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>1848</string>
+		<key>title</key>
+		<string>Fetal skeleton and human skull
+Fetal skeleton, human skull, and a 14-inch hairball
+</string>
+		<key>imageFileNameBase</key>
+		<string>C2</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>1848</string>
+		<key>title</key>
+		<string>Fetal skeletons
+Fetal skeleton, human skull, and a 14-inch hairball
+</string>
+		<key>imageFileNameBase</key>
+		<string>C3</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string></string>
+		<key>title</key>
+		<string>Baby figures</string>
+		<key>imageFileNameBase</key>
+		<string>C4</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string></string>
+		<key>title</key>
+		<string>A man figure</string>
+		<key>imageFileNameBase</key>
+		<string>C5</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string></string>
+		<key>title</key>
+		<string>A bird model</string>
+		<key>imageFileNameBase</key>
+		<string>C6</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>1800</string>
+		<key>title</key>
+		<string>An anatomical model of the human skull</string>
+		<key>imageFileNameBase</key>
+		<string>C8</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>1820</string>
+		<key>title</key>
+		<string>This wax anatomical model of a woman
+</string>
+		<key>imageFileNameBase</key>
+		<string>C9</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>1800</string>
+		<key>title</key>
+		<string>Medical and scientific instruments
+</string>
+		<key>imageFileNameBase</key>
+		<string>C11</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>2017</string>
+		<key>title</key>
+		<string>A baby visited Transy museum</string>
+		<key>imageFileNameBase</key>
+		<string>D1</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>2017</string>
+		<key>title</key>
+		<string>A woman visited Transy museum</string>
+		<key>imageFileNameBase</key>
+		<string>D2</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>2017</string>
+		<key>title</key>
+		<string>Ozzy Osbourne and his son, Jack, visited Transy museum </string>
+		<key>imageFileNameBase</key>
+		<string>D3</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>2017</string>
+		<key>title</key>
+		<string>A boy visited Transy museum </string>
+		<key>imageFileNameBase</key>
+		<string>D4</string>
+	</dict>
+	<dict>
+		<key>location</key>
+		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>date</key>
+		<string>2017</string>
+		<key>title</key>
+		<string>Signatures of Ozzy Osbourne and his son Jack</string>
+		<key>imageFileNameBase</key>
+		<string>D5</string>
+	</dict>
 </array>
 </plist>
