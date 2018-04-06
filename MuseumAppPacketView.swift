@@ -1,5 +1,5 @@
 //
-//  VMRPacketView.swift (formerly VMRPacketView.m)
+//  MuseumAppPacketView.swift (formerly MuseumAppPacketView.m)
 //  ViewMaster
 //
 //  Created by Robert England on 3/11/18.
@@ -10,11 +10,11 @@
 
 import UIKit
 
-@objc(VMRPacketView)
-class VMRPacketView: UIView {
+@objc(MuseumAppPacketView)
+class MuseumAppPacketView: UIView {
     
-    var packet: VMRPacket?
-    weak var viewController: VMRPacketViewController?
+    var packet: MuseumAppPacket?
+    weak var viewController: MuseumAppPacketViewController?
     
     // the preferred size of this view is the size of the packet background image
     class func preferredViewSize() -> CGSize {
@@ -33,7 +33,7 @@ class VMRPacketView: UIView {
         self.backgroundColor = UIColor.clear
         
         // attach a tap gesture recognizer to this view so that it can flip
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(VMRPacketView.tapAction(_:)))
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MuseumAppPacketView.tapAction(_:)))
         self.addGestureRecognizer(tapGestureRecognizer)
     }
     
@@ -49,7 +49,7 @@ class VMRPacketView: UIView {
     @objc func tapAction(_ gestureRecognizer: UIGestureRecognizer) {
         
         // when a tap gesture occurs, tell the view controller to flip this view to the
-        //  back, and show the VMRPacketFlippedView instead
+        //  back, and show the MuseumAppPacketFlippedView instead
         self.viewController?.flipCurrentView()
     }
     

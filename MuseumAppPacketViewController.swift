@@ -1,5 +1,5 @@
 //
-//  VMRPacketViewController.swift   (copied from .m version)
+//  MuseumAppPacketViewController.swift   (copied from .m version)
 //  ViewMaster
 //
 //  Created by Robert England on 3/11/18.
@@ -12,19 +12,19 @@
 
 import UIKit
 
-@objc(VMRPacketViewController)
-class VMRPacketViewController: UIViewController {
+@objc(MuseumAppPacketViewController)
+class MuseumAppPacketViewController: UIViewController {
     
-    var myPacket: VMRPacket?
+    var myPacket: MuseumAppPacket?
     
     private let kFlipTranslationDuration = 0.75
     private let reflectionFraction: CGFloat = 0.35
     private let reflectionOpacity: CGFloat = 0.5
     
     private var frontViewIsVisible: Bool = true
-    private var packetView: VMRPacketView!
+    private var packetView: MuseumAppPacketView!
     private var reflectionView: UIImageView!
-    private var packetFlippedView: VMRPacketFlippedView!
+    private var packetFlippedView: MuseumAppPacketFlippedView!
     private var flipIndicatorButton: UIButton!
     
     private var ebayButton: UIButton!
@@ -38,7 +38,7 @@ class VMRPacketViewController: UIViewController {
         self.view.backgroundColor = UIColor.black   // RE:: ?
         self.frontViewIsVisible = true
         
-        let preferredPacketViewSize = VMRPacketView.preferredViewSize()
+        let preferredPacketViewSize = MuseumAppPacketView.preferredViewSize()
         
         let viewRect = CGRect(x: (self.view.bounds.width - preferredPacketViewSize.width)/2,
                               y: (self.view.bounds.height - preferredPacketViewSize.height)/2 - 5,
@@ -49,7 +49,7 @@ class VMRPacketViewController: UIViewController {
         self.setupUserInterface()
         
         // create the packet view
-        let tempPacketView = VMRPacketView(frame: viewRect)
+        let tempPacketView = MuseumAppPacketView(frame: viewRect)
         self.packetView = tempPacketView
         
         // add the packet View to the view controller's interface
@@ -60,7 +60,7 @@ class VMRPacketViewController: UIViewController {
         self.packetView.viewController = self
         
         // create the packet flipped view
-        let tempPacketFlippedView = VMRPacketFlippedView(frame: viewRect)
+        let tempPacketFlippedView = MuseumAppPacketFlippedView(frame: viewRect)
         self.packetFlippedView = tempPacketFlippedView
         
         self.packetFlippedView.packet = self.myPacket
@@ -95,7 +95,7 @@ class VMRPacketViewController: UIViewController {
         self.flipIndicatorButton.setBackgroundImage(UIImage(named: "FlipBackButton.png"), for: UIControlState())
         
         let flipButtonBarItem = UIBarButtonItem(customView: self.flipIndicatorButton)
-        self.flipIndicatorButton.addTarget(self, action: #selector(VMRPacketViewController.flipCurrentView),
+        self.flipIndicatorButton.addTarget(self, action: #selector(MuseumAppPacketViewController.flipCurrentView),
                                            for: UIControlEvents.touchDown)
         self.navigationItem.setRightBarButton(flipButtonBarItem, animated: true)
     }
@@ -110,7 +110,7 @@ class VMRPacketViewController: UIViewController {
         UIView.beginAnimations(nil, context: nil)
         UIView.setAnimationDuration(kFlipTranslationDuration)
         UIView.setAnimationDelegate(self)
-        UIView.setAnimationDidStop(#selector(VMRPacketViewController.myTransitionDidStop(_:finished:context:)))
+        UIView.setAnimationDidStop(#selector(MuseumAppPacketViewController.myTransitionDidStop(_:finished:context:)))
         
         // swap the views and transition
         if self.frontViewIsVisible {
@@ -140,7 +140,7 @@ class VMRPacketViewController: UIViewController {
         UIView.setAnimationDuration(kFlipTranslationDuration)
         UIView.setAnimationDelegate(self)
         
-        UIView.setAnimationDidStop(#selector(VMRPacketViewController.myTransitionDidStop(_:finished:context:)))
+        UIView.setAnimationDidStop(#selector(MuseumAppPacketViewController.myTransitionDidStop(_:finished:context:)))
         
         if self.frontViewIsVisible {
             UIView.setAnimationTransition(.flipFromRight, for: self.flipIndicatorButton, cache: true)
@@ -200,7 +200,7 @@ class VMRPacketViewController: UIViewController {
         self.ebayButton.contentHorizontalAlignment = UIControlContentHorizontalAlignment.center
         self.ebayButton.contentVerticalAlignment = UIControlContentVerticalAlignment.center
         
-        self.ebayButton.addTarget(self, action:#selector(VMRPacketViewController.jumpToEbay(_:)), for: UIControlEvents.touchUpInside)
+        self.ebayButton.addTarget(self, action:#selector(MuseumAppPacketViewController.jumpToEbay(_:)), for: UIControlEvents.touchUpInside)
         
         self.view.addSubview(self.ebayButton)
     }

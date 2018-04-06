@@ -1,5 +1,5 @@
 //
-//  VMRPacketFlippedView.swift  (copied from VMRPacketFlippedView.m)
+//  MuseumAppPacketFlippedView.swift  (copied from MuseumAppPacketFlippedView.m)
 //  ViewMaster
 //
 //  Created by Robert England on 3/11/18.
@@ -10,8 +10,8 @@
 
 import UIKit
 
-@objc(VMRPacketFlippedView)
-class VMRPacketFlippedView: VMRPacketView {
+@objc(MuseumAppPacketFlippedView)
+class MuseumAppPacketFlippedView: MuseumAppPacketView {
     
     // (wikipedia button was here)
     

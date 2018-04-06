@@ -36,7 +36,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // print("Hello?")
-        _ = VMRViewMasterPackets.sharedViewMasterPackets()
+        _ = MuseumAppViewMasterPackets.sharedViewMasterPackets()
    /**/
 /*        if packets != nil {
             print("Success in AppDelegate --- found the plist")
@@ -44,26 +44,26 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         else {
             print("Problems reading plist")
         }
-        print("Here's the categories: \(VMRViewMasterPackets.packetCategories)")
+        print("Here's the categories: \(MuseumAppViewMasterPackets.packetCategories)")
         let aCategory = "SHOWTIME"
-        print("Here's a categories dictionary entry: \(VMRViewMasterPackets.categoriesDictionary![aCategory])")
-        print("Here's the whole categories dictionary: \(VMRViewMasterPackets.categoriesDictionary!)")
+        print("Here's a categories dictionary entry: \(MuseumAppViewMasterPackets.categoriesDictionary![aCategory])")
+        print("Here's the whole categories dictionary: \(MuseumAppViewMasterPackets.categoriesDictionary!)")
         let aLetter = "B"
-        print("Here's the B first letter dictionary: \(VMRViewMasterPackets.titlesIndexDictionary![aLetter])")
-        print("Here's the packets sorted by number: \(VMRViewMasterPackets.packetsSortedByNumber!)")
+        print("Here's the B first letter dictionary: \(MuseumAppViewMasterPackets.titlesIndexDictionary![aLetter])")
+        print("Here's the packets sorted by number: \(MuseumAppViewMasterPackets.packetsSortedByNumber!)")
 */
         
 //// Start REAL implementation...
         
         // For each table view screen we need to create a separate data source instance
-        // We then need to create an instance of VMRPacketsTableViewCOntroller with that data source instance.
-        // Finally, we need to return a UINavigationController for each screen, with the VMRPacketViewCOntroller
+        // We then need to create an instance of MuseumAppPacketsTableViewCOntroller with that data source instance.
+        // Finally, we need to return a UINavigationController for each screen, with the MuseumAppPacketViewCOntroller
         //    as its root view controller
         let tabBarController = self.window?.rootViewController as! UITabBarController
         
         // The class for the data source is not important, but it must implement the
-        //    VMRPacketDataSourceProtocol (...and the UITableViewDataSource protocol, too?)
-        var _ : VMRPacketsTableDataSourceProtocol
+        //    MuseumAppPacketDataSourceProtocol (...and the UITableViewDataSource protocol, too?)
+        var _ : MuseumAppPacketsTableDataSourceProtocol
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         var tempViewControllers = [UINavigationController]()
         
@@ -73,26 +73,26 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         // Sorted by title...
         var tempNavController = storyBoard.instantiateViewController(withIdentifier: "navForTableView") as! UINavigationController
-        var tempViewController = tempNavController.topViewController! as! VMRPacketsTableViewController
-        tempViewController.dataSource = VMRPacketsSortedByTitleDataSource()
+        var tempViewController = tempNavController.topViewController! as! MuseumAppPacketsTableViewController
+        tempViewController.dataSource = MuseumAppPacketsSortedByTitleDataSource()
         tempViewControllers.append(tempNavController)
         
         // Sorted by date...
         tempNavController = storyBoard.instantiateViewController(withIdentifier: "navForTableView") as! UINavigationController
-        tempViewController = tempNavController.topViewController! as! VMRPacketsTableViewController
-        tempViewController.dataSource = VMRPacketsSortedByDateDataSource()
+        tempViewController = tempNavController.topViewController! as! MuseumAppPacketsTableViewController
+        tempViewController.dataSource = MuseumAppPacketsSortedByDateDataSource()
         tempViewControllers.append(tempNavController)
         
         // Sorted by location...
         tempNavController = storyBoard.instantiateViewController(withIdentifier: "navForTableView") as! UINavigationController
-        tempViewController = tempNavController.topViewController! as! VMRPacketsTableViewController
-        tempViewController.dataSource = VMRPacketsSortedByLocationDataSource()
+        tempViewController = tempNavController.topViewController! as! MuseumAppPacketsTableViewController
+        tempViewController.dataSource = MuseumAppPacketsSortedByLocationDataSource()
         tempViewControllers.append(tempNavController)
 
         // Sorted by date, as a grid...
         tempNavController = storyBoard.instantiateViewController(withIdentifier: "navForCollectionView") as! UINavigationController
-        let tempGridViewController = tempNavController.topViewController! as! VMRPacketsCollectionViewController
-        tempGridViewController.dataSource = VMRPacketsCollectionDataSource()
+        let tempGridViewController = tempNavController.topViewController! as! MuseumAppPacketsCollectionViewController
+        tempGridViewController.dataSource = MuseumAppPacketsCollectionDataSource()
         tempViewControllers.append(tempNavController)
         // print("Got this far... Grid VC exists")
         

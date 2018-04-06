@@ -1,5 +1,5 @@
 //
-//  VMRPacket.swift
+//  MuseumAppPacket.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 6/1/18.
@@ -12,11 +12,11 @@ import UIKit
 
 // NOTE: Changing this to a class to see if it links up w/ Obj-C any easier...
 //    ... it does! struct is NOT an object!
-//struct VMRPacket: Printable {
+//struct MuseumAppPacket: Printable {
 
 // Google: "swift printable protocol"
 //https://developer.apple.com/documentation/swift/customstringconvertible
-class VMRPacket: CustomStringConvertible {
+class MuseumAppPacket: CustomStringConvertible {
     var title: String
     var date: String
     var imageFileNameBase: String

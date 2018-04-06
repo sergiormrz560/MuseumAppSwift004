@@ -1,5 +1,5 @@
 //
-//  VMRPacketTileView.swift
+//  MuseumAppPacketTileView.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/11/18.
@@ -10,16 +10,16 @@
 
 import UIKit
 
-class VMRPacketTileView: UIView {
-    var packet : VMRPacket
+class MuseumAppPacketTileView: UIView {
+    var packet : MuseumAppPacket
     
     override init(frame aRect: CGRect) {
-        packet = VMRPacket()
+        packet = MuseumAppPacket()
         super.init(frame: aRect)
     }
 
     required init (coder aDecoder: NSCoder) {
-        packet = VMRPacket()
+        packet = MuseumAppPacket()
         super.init(coder: aDecoder)!
     }
 

@@ -1,5 +1,5 @@
 //
-//  VMRPacketCollectionViewCell.swift
+//  MuseumAppPacketCollectionViewCell.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/12/18.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class VMRPacketCollectionViewCell: UICollectionViewCell {
+class MuseumAppPacketCollectionViewCell: UICollectionViewCell {
     
-    var packet : VMRPacket {
+    var packet : MuseumAppPacket {
         didSet {
             // Associate a packet with the image view in this cell
             let imageView = self.contentView.viewWithTag(1) as! UIImageView
@@ -21,7 +21,7 @@ class VMRPacketCollectionViewCell: UICollectionViewCell {
     }
     
     required init (coder aDecoder: NSCoder) {
-        packet = VMRPacket()
+        packet = MuseumAppPacket()
         super.init(coder: aDecoder)!
     }
     

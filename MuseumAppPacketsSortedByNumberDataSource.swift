@@ -1,5 +1,5 @@
 //
-//  VMRPacketsSortedByNumberDataSource.swift
+//  MuseumAppPacketsSortedByNumberDataSource.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/11/18.
@@ -11,11 +11,11 @@
 import UIKit
 
 // Note: Thie *automatically* picks up UITableDataSource protocol through
-//    VMRPacketsTableDataSourceProtocol
+//    MuseumAppPacketsTableDataSourceProtocol
 
-class VMRPacketsSortedByDateDataSource: NSObject, VMRPacketsTableDataSourceProtocol {
+class MuseumAppPacketsSortedByDateDataSource: NSObject, MuseumAppPacketsTableDataSourceProtocol {
     
-    //// Protocol methods to comply with "VMRPacketsDataSource" protocol
+    //// Protocol methods to comply with "MuseumAppPacketsDataSource" protocol
     
     // Getters for properties for navagation and tab bars
     var name: String {
@@ -42,11 +42,11 @@ class VMRPacketsSortedByDateDataSource: NSObject, VMRPacketsTableDataSourceProto
     }
     
     // Return the packet for the given index path (--> Take a closer look at this!)
-    func packetForindexPath(indexPath: NSIndexPath) -> VMRPacket {
+    func packetForindexPath(indexPath: NSIndexPath) -> MuseumAppPacket {
 //        println("packetForIndexPath")
-//        let firstLetter = VMRViewMasterPackets.packetTitleIndexArray![indexPath.section]
-//        let packetsWithSameFirstLetter = VMRViewMasterPackets.packetsWithInitialLetter(firstLetter)
-        return VMRViewMasterPackets.packetsSortedByDate![indexPath.row]
+//        let firstLetter = MuseumAppViewMasterPackets.packetTitleIndexArray![indexPath.section]
+//        let packetsWithSameFirstLetter = MuseumAppViewMasterPackets.packetsWithInitialLetter(firstLetter)
+        return MuseumAppViewMasterPackets.packetsSortedByDate![indexPath.row]
     }
     
     // (Don't really use this)
@@ -57,7 +57,7 @@ class VMRPacketsSortedByDateDataSource: NSObject, VMRPacketsTableDataSourceProto
 //    #pragma mark - UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
  //       println("Making a cell...")
-        let cell = tableView.dequeueReusableCell(withIdentifier: "VMRPacketTableViewCell", for: indexPath) as! VMRPacketTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MuseumAppPacketTableViewCell", for: indexPath) as! MuseumAppPacketTableViewCell
         
         // Set the packet for this cell as indicated by the datasource
         cell.packet = packetForindexPath(indexPath: indexPath as NSIndexPath)
@@ -66,14 +66,14 @@ class VMRPacketsSortedByDateDataSource: NSObject, VMRPacketsTableDataSourceProto
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-  //      println("numberOfSectionsInTableView is \(VMRViewMasterPackets.packetTitleIndexArray!.count)")
+  //      println("numberOfSectionsInTableView is \(MuseumAppViewMasterPackets.packetTitleIndexArray!.count)")
         // The numbers table is just one big section
         return 1
     }
     
 //    func sectionIndexTitlesForTableView(tableView: UITableView) -> [AnyObject]! {
 //        // The numbers table is juts one big section
-//        return VMRViewMasterPackets.packetTitleIndexArray
+//        return MuseumAppViewMasterPackets.packetTitleIndexArray
 //    }
   
 //    func tableView(tableView: UITableView, sectionForSectionIndexTitle title: String, atIndex index: Int) -> Int {
@@ -84,7 +84,7 @@ class VMRPacketsSortedByDateDataSource: NSObject, VMRPacketsTableDataSourceProto
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // One big section: Return how many packets there are total
-        return VMRViewMasterPackets.packetsSortedByDate!.count
+        return MuseumAppViewMasterPackets.packetsSortedByDate!.count
      }
     
 //    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -92,7 +92,7 @@ class VMRPacketsSortedByDateDataSource: NSObject, VMRPacketsTableDataSourceProto
 //        // Return the letter that corressponds to the requested section
 //        // [From Elements project files comments:]
 //        //    "This is actually a delegate method, but we forward the request to the datasource in the view controller"
-//        return VMRViewMasterPackets.packetTitleIndexArray![section]
+//        return MuseumAppViewMasterPackets.packetTitleIndexArray![section]
 //    }
   
     

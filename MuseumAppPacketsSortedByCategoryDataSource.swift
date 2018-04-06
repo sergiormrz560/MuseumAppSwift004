@@ -1,5 +1,5 @@
 //
-//  VMRPacketsSortedByLocationDataSource.swift
+//  MuseumAppPacketsSortedByLocationDataSource.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/11/18.
@@ -11,11 +11,11 @@
 import UIKit
 
 // Note: Thie *automatically* picks up UITableDataSource protocol through
-//    VMRPacketsTableDataSourceProtocol
+//    MuseumAppPacketsTableDataSourceProtocol
 
-class VMRPacketsSortedByLocationDataSource: NSObject, VMRPacketsTableDataSourceProtocol {
+class MuseumAppPacketsSortedByLocationDataSource: NSObject, MuseumAppPacketsTableDataSourceProtocol {
     
-    //// Protocol methods to comply with "VMRPacketsDataSource" protocol
+    //// Protocol methods to comply with "MuseumAppPacketsDataSource" protocol
     
     // Getters for properties for navagation and tab bars
     var name: String {
@@ -42,16 +42,16 @@ class VMRPacketsSortedByLocationDataSource: NSObject, VMRPacketsTableDataSourceP
     }
     
     // Return the packet for the given index path (--> Take a closer look at this!)
-    func packetForindexPath(indexPath: NSIndexPath) -> VMRPacket {
+    func packetForindexPath(indexPath: NSIndexPath) -> MuseumAppPacket {
         // This table has multiple sections --- One for each Category
         // The section number is the index into the Category array,
         //    the row number is the index into that Category's array of packets.
         
         // Get the Location
-        let packetLocation = VMRViewMasterPackets.packetLocation![indexPath.section]
+        let packetLocation = MuseumAppViewMasterPackets.packetLocation![indexPath.section]
         
         // Get the packet from that category's array
-        let packetsInThisLocation = VMRViewMasterPackets.packetsInLocation(location: packetLocation)
+        let packetsInThisLocation = MuseumAppViewMasterPackets.packetsInLocation(location: packetLocation)
         return packetsInThisLocation![indexPath.row]
     }
     
@@ -64,7 +64,7 @@ class VMRPacketsSortedByLocationDataSource: NSObject, VMRPacketsTableDataSourceP
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
  //       println("Making a cell...")
-        let cell = tableView.dequeueReusableCell(withIdentifier: "VMRPacketTableViewCell", for: indexPath) as! VMRPacketTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MuseumAppPacketTableViewCell", for: indexPath) as! MuseumAppPacketTableViewCell
         
         // Set the packet for this cell as indicated by the datasource
         cell.packet = packetForindexPath(indexPath: indexPath as NSIndexPath)
@@ -74,7 +74,7 @@ class VMRPacketsSortedByLocationDataSource: NSObject, VMRPacketsTableDataSourceP
     
     func numberOfSections(in tableView: UITableView) -> Int {
         // The number of different sections in thei table depends on the number of different first letters
-        return VMRViewMasterPackets.packetLocation!.count
+        return MuseumAppViewMasterPackets.packetLocation!.count
     }
   
     func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
@@ -89,10 +89,10 @@ class VMRPacketsSortedByLocationDataSource: NSObject, VMRPacketsTableDataSourceP
         // Return the number of packets in the current category.
 
         // Get the location name...
-        let locationKey = VMRViewMasterPackets.packetLocation![section]
+        let locationKey = MuseumAppViewMasterPackets.packetLocation![section]
 
         // ... and then get the number of packets in that location
-        let packetsInThisLocation = VMRViewMasterPackets.packetsInLocation(location: locationKey)
+        let packetsInThisLocation = MuseumAppViewMasterPackets.packetsInLocation(location: locationKey)
         
         // Return how many there are in this location
         if packetsInThisLocation != nil {
@@ -109,10 +109,10 @@ class VMRPacketsSortedByLocationDataSource: NSObject, VMRPacketsTableDataSourceP
         //    are packets in this location
         // [Technically, this is a delegate method for the table, but we get it from the data source]
 //        if tableView.numberOfRowsInSection(section) != 0 {
-//            return VMRViewMasterPackets.packetLocation![section]
+//            return MuseumAppViewMasterPackets.packetLocation![section]
 //        }
 //        return nil
-        return VMRViewMasterPackets.packetLocation![section]
+        return MuseumAppViewMasterPackets.packetLocation![section]
     }
   
     

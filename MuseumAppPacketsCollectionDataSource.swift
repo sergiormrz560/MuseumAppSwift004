@@ -1,5 +1,5 @@
 //
-//  VMRPacketsCollectionDataSource.swift
+//  MuseumAppPacketsCollectionDataSource.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/11/18.
@@ -11,11 +11,11 @@
 import UIKit
 
 // Note: Thie *automatically* picks up UICollectionDataSource protocol through
-//    VMRPacketsCollectionDataSourceProtocol
+//    MuseumAppPacketsCollectionDataSourceProtocol
 
-class VMRPacketsCollectionDataSource: NSObject, VMRPacketsCollectionDataSourceProtocol {
+class MuseumAppPacketsCollectionDataSource: NSObject, MuseumAppPacketsCollectionDataSourceProtocol {
     
-    //// Protocol methods to comply with "VMRPacketsDataSource" protocol
+    //// Protocol methods to comply with "MuseumAppPacketsDataSource" protocol
     
     // Getters for properties for navagation and tab bars
     var name: String {
@@ -39,7 +39,7 @@ class VMRPacketsCollectionDataSource: NSObject, VMRPacketsCollectionDataSourcePr
     // Number of items in the section is the number of packets
     func collectionView(_ collectionView: UICollectionView,
         numberOfItemsInSection section: Int) -> Int {
-            return VMRViewMasterPackets.packetsSortedByDate!.count
+            return MuseumAppViewMasterPackets.packetsSortedByDate!.count
     }
     
     // Just one section in the grid
@@ -50,7 +50,7 @@ class VMRPacketsCollectionDataSource: NSObject, VMRPacketsCollectionDataSourcePr
     // Return a cell for the corresponding index path
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "VMRPacketCollectionViewCell", for: indexPath as IndexPath) as! VMRPacketCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MuseumAppPacketCollectionViewCell", for: indexPath as IndexPath) as! MuseumAppPacketCollectionViewCell
 
             // Set the packet for this cell as indicated by the datasource
         cell.packet = packetForindexPath(indexPath: indexPath as NSIndexPath)
@@ -59,11 +59,11 @@ class VMRPacketsCollectionDataSource: NSObject, VMRPacketsCollectionDataSourcePr
     }
     
     // Return the packet for the given index path (--> Take a closer look at this!)
-    func packetForindexPath(indexPath: NSIndexPath) -> VMRPacket {
+    func packetForindexPath(indexPath: NSIndexPath) -> MuseumAppPacket {
         //        println("packetForIndexPath")
-        //        let firstLetter = VMRViewMasterPackets.packetTitleIndexArray![indexPath.section]
-        //        let packetsWithSameFirstLetter = VMRViewMasterPackets.packetsWithInitialLetter(firstLetter)
-        return VMRViewMasterPackets.packetsSortedByDate![indexPath.row]
+        //        let firstLetter = MuseumAppViewMasterPackets.packetTitleIndexArray![indexPath.section]
+        //        let packetsWithSameFirstLetter = MuseumAppViewMasterPackets.packetsWithInitialLetter(firstLetter)
+        return MuseumAppViewMasterPackets.packetsSortedByDate![indexPath.row]
     }
     
     // (Don't really use this)
@@ -74,7 +74,7 @@ class VMRPacketsCollectionDataSource: NSObject, VMRPacketsCollectionDataSourcePr
 //    #pragma mark - UITableViewDataSource
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
  //       println("Making a cell...")
-        let cell = tableView.dequeueReusableCell(withIdentifier: "VMRPacketTableViewCell", for: indexPath as IndexPath) as! VMRPacketTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MuseumAppPacketTableViewCell", for: indexPath as IndexPath) as! MuseumAppPacketTableViewCell
         
         // Set the packet for this cell as indicated by the datasource
         cell.packet = packetForindexPath(indexPath: indexPath)
@@ -84,7 +84,7 @@ class VMRPacketsCollectionDataSource: NSObject, VMRPacketsCollectionDataSourcePr
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // One big section: Return how many packets there are total
-        return VMRViewMasterPackets.packetsSortedByDate!.count
+        return MuseumAppViewMasterPackets.packetsSortedByDate!.count
      }
   
     

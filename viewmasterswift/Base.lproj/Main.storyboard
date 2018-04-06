@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -31,20 +31,20 @@
         <!--Packets Table View Controller-->
         <scene sceneID="izz-E2-itn">
             <objects>
-                <tableViewController id="QM7-Xr-R48" userLabel="Packets Table View Controller" customClass="VMRPacketsTableViewController" sceneMemberID="viewController">
+                <tableViewController id="QM7-Xr-R48" userLabel="Packets Table View Controller" customClass="MuseumAppPacketsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="grN-1f-fKS">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VMRPacketTableViewCell" id="6dg-H9-PfX" customClass="VMRPacketTableViewCell" customModule="ViewMasterSwift" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MuseumAppPacketTableViewCell" id="6dg-H9-PfX" customClass="MuseumAppPacketTableViewCell" customModule="ViewMasterSwift" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="22" width="834" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6dg-H9-PfX" id="eFl-Jd-6Xb">
                                     <rect key="frame" x="0.0" y="0.0" width="796" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dji-cQ-Cad" customClass="VMRPacketTileView" customModule="ViewMasterSwift" customModuleProvider="target">
+                                        <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dji-cQ-Cad" customClass="MuseumAppPacketTileView" customModule="ViewMasterSwift" customModuleProvider="target">
                                             <rect key="frame" x="10" y="3" width="41" height="38"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="150" y="159"/>
         </scene>
-        <!--Packets Collection View Controller-->
+        <!--Museum App Packets Collection View Controller-->
         <scene sceneID="Aj7-6G-lpY">
             <objects>
-                <collectionViewController id="E1m-ri-X1e" customClass="VMRPacketsCollectionViewController" customModule="ViewMasterSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="E1m-ri-X1e" customClass="MuseumAppPacketsCollectionViewController" customModule="ViewMasterSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ZHc-3f-bdk">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
                             <inset key="sectionInset" minX="2" minY="2" maxX="2" maxY="2"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VMRPacketCollectionViewCell" id="ybB-Zd-F7r" customClass="VMRPacketCollectionViewCell" customModule="ViewMasterSwift" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MuseumAppPacketCollectionViewCell" id="ybB-Zd-F7r" customClass="MuseumAppPacketCollectionViewCell" customModule="ViewMasterSwift" customModuleProvider="target">
                                 <rect key="frame" x="2" y="2" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -125,10 +125,10 @@
             </objects>
             <point key="canvasLocation" x="150" y="1459"/>
         </scene>
-        <!--Packet View Controller-->
+        <!--Museum App Packet View Controller-->
         <scene sceneID="4kK-ek-Kn9">
             <objects>
-                <viewController id="VCy-ha-eFJ" customClass="VMRPacketViewController" sceneMemberID="viewController">
+                <viewController id="VCy-ha-eFJ" customClass="MuseumAppPacketViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hkm-tU-g3R"/>
                         <viewControllerLayoutGuide type="bottom" id="AsA-Yk-9LM"/>
@@ -150,7 +150,6 @@
                 <navigationController storyboardIdentifier="navForTableView" id="wof-El-Nmt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="ICQ-Ov-eTL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xHZ-ro-1xP">
-                        <rect key="frame" x="0.0" y="20" width="834" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -168,7 +167,6 @@
                     <tabBarItem key="tabBarItem" title="Item" id="Oqg-PQ-ees"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="W2V-ka-0g5">
-                        <rect key="frame" x="0.0" y="20" width="834" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -182,6 +180,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JRd-wJ-MsW"/>
+        <segue reference="GjF-om-gzU"/>
     </inferredMetricsTieBreakers>
 </document>

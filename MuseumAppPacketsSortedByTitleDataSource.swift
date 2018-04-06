@@ -1,5 +1,5 @@
 //
-//  VMRPacketsSortedByTitleDataSource.swift
+//  MuseumAppPacketsSortedByTitleDataSource.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/11/18.
@@ -11,11 +11,11 @@
 import UIKit
 
 // Note: Thie *automatically* picks up UITableDataSource protocol through
-//    VMRPacketsTableDataSourceProtocol
+//    MuseumAppPacketsTableDataSourceProtocol
 
-class VMRPacketsSortedByTitleDataSource: NSObject, VMRPacketsTableDataSourceProtocol {
+class MuseumAppPacketsSortedByTitleDataSource: NSObject, MuseumAppPacketsTableDataSourceProtocol {
  
-    //// Protocol methods to comply with "VMRPacketsDataSource" protocol
+    //// Protocol methods to comply with "MuseumAppPacketsDataSource" protocol
     
     // Getters for properties for navagation and tab bars
     var name: String {
@@ -42,18 +42,18 @@ class VMRPacketsSortedByTitleDataSource: NSObject, VMRPacketsTableDataSourceProt
     }
     
     // Return the packet for the given index path (--> Take a closer look at this!)
-    func packetForindexPath(indexPath: NSIndexPath) -> VMRPacket {
+    func packetForindexPath(indexPath: NSIndexPath) -> MuseumAppPacket {
 //        println("packetForIndexPath")
 
-        let firstLetter = VMRViewMasterPackets.packetTitleIndexArray![indexPath.section]
+        let firstLetter = MuseumAppViewMasterPackets.packetTitleIndexArray![indexPath.section]
 //        print("firstLetter is \(firstLetter)")
 //        firstLetter = "E"
 //        print("firstLetter is now \(firstLetter)")
-        let packetsWithSameFirstLetter = VMRViewMasterPackets.packetsWithInitialLetter(letter: firstLetter)
+        let packetsWithSameFirstLetter = MuseumAppViewMasterPackets.packetsWithInitialLetter(letter: firstLetter)
         return packetsWithSameFirstLetter![indexPath.row]
 
     /*
-        return VMRViewMasterPackets.sharedViewMasterPackets().packetsWithInitialLetter(VMRViewMasterPackets.sharedViewMasterPackets().packetTitleIndexArray[indexPath.section])![indexPath.row]
+        return MuseumAppViewMasterPackets.sharedViewMasterPackets().packetsWithInitialLetter(MuseumAppViewMasterPackets.sharedViewMasterPackets().packetTitleIndexArray[indexPath.section])![indexPath.row]
  */
     }
     
@@ -65,7 +65,7 @@ class VMRPacketsSortedByTitleDataSource: NSObject, VMRPacketsTableDataSourceProt
 //    #pragma mark - UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
  //       println("Making a cell...")
-        let cell = tableView.dequeueReusableCell(withIdentifier: "VMRPacketTableViewCell", for: indexPath) as! VMRPacketTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MuseumAppPacketTableViewCell", for: indexPath) as! MuseumAppPacketTableViewCell
         
         // Set the packet for this cell as indicated by the datasource
         cell.packet = packetForindexPath(indexPath: indexPath as NSIndexPath)
@@ -75,9 +75,9 @@ class VMRPacketsSortedByTitleDataSource: NSObject, VMRPacketsTableDataSourceProt
     
     // (changed func name via TheElements, swift edition)
     func numberOfSections(in tableView: UITableView) -> Int {
-   //     print("numberOfSectionsInTableView is \(VMRViewMasterPackets.packetTitleIndexArray!.count)")
+   //     print("numberOfSectionsInTableView is \(MuseumAppViewMasterPackets.packetTitleIndexArray!.count)")
         // The number of different sections in thei table depends on the number of different first letters
-        return VMRViewMasterPackets.packetTitleIndexArray!.count
+        return MuseumAppViewMasterPackets.packetTitleIndexArray!.count
     }
     
     // (another func name update)
@@ -86,8 +86,8 @@ class VMRPacketsSortedByTitleDataSource: NSObject, VMRPacketsTableDataSourceProt
         // Returns the array of section titles --- these are just the first letters that
         //    occur in any packet title in the data set
         // NOTE: "title" here is the title of a table section, *not* the title of a packet!
-//        return VMRViewMasterPackets.packetTitleIndexArray! as [AnyObject]
-        return VMRViewMasterPackets.packetTitleIndexArray!
+//        return MuseumAppViewMasterPackets.packetTitleIndexArray! as [AnyObject]
+        return MuseumAppViewMasterPackets.packetTitleIndexArray!
     }
   
     func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
@@ -100,11 +100,11 @@ class VMRPacketsSortedByTitleDataSource: NSObject, VMRPacketsTableDataSourceProt
  //       print("numberOfRowsInSection \(section)")
         // The section corresponds to the first letter of the packet title
         // Grab that letter out of the array of packet title index letters
-        let initialLetter = VMRViewMasterPackets.packetTitleIndexArray![section]
+        let initialLetter = MuseumAppViewMasterPackets.packetTitleIndexArray![section]
  //       println(" initial letter \(initialLetter)")
         
         // Now get the array of packets whose titles start with that letter
-        let packetsWithInitialPacketTitleLetter = VMRViewMasterPackets.packetsWithInitialLetter(letter: initialLetter)
+        let packetsWithInitialPacketTitleLetter = MuseumAppViewMasterPackets.packetsWithInitialLetter(letter: initialLetter)
         // Return how many there are that start with this letter
         if packetsWithInitialPacketTitleLetter != nil {
  //           println("Number of rows in \(initialLetter) section is \(packetsWithInitialPacketTitleLetter!.count)")
@@ -121,7 +121,7 @@ class VMRPacketsSortedByTitleDataSource: NSObject, VMRPacketsTableDataSourceProt
         // Return the letter that corressponds to the requested section
         // [From Elements project files comments:]
         //    "This is actually a delegate method, but we forward the request to the datasource in the view controller"
-        return VMRViewMasterPackets.packetTitleIndexArray![section]
+        return MuseumAppViewMasterPackets.packetTitleIndexArray![section]
     }
   
     

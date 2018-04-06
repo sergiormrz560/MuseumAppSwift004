@@ -1,5 +1,5 @@
 //
-//  VMRPacketTableViewCell.swift
+//  MuseumAppPacketTableViewCell.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/11/18.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class VMRPacketTableViewCell: UITableViewCell {
-    var packet : VMRPacket {
+class MuseumAppPacketTableViewCell: UITableViewCell {
+    var packet : MuseumAppPacket {
         didSet {
             // Associate a packet with the tile view in this cell
-            let packetTileView = self.contentView.viewWithTag(1) as? VMRPacketTileView
+            let packetTileView = self.contentView.viewWithTag(1) as? MuseumAppPacketTileView
             packetTileView!.packet = self.packet
             
             // Set the label to the title of the packet
@@ -28,7 +28,7 @@ class VMRPacketTableViewCell: UITableViewCell {
     }
     
     required init (coder aDecoder: NSCoder) {
-        packet = VMRPacket()
+        packet = MuseumAppPacket()
         super.init(coder: aDecoder)!
     }
     

@@ -1,5 +1,5 @@
 //
-//  VMRViewMasterPackets.swift
+//  MuseumAppViewMasterPackets.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/12/18.
@@ -11,53 +11,53 @@
 
 import Foundation
 
-class VMRViewMasterPackets {
+class MuseumAppViewMasterPackets {
     static var packetLocation: [String]?
     static var packetTitleIndexArray: [String]?
     
     // Dictionaries that will contain arrays of packets indexed by...
     // Title:
-    static var titlesDictionary: [String : VMRPacket]?
+    static var titlesDictionary: [String : MuseumAppPacket]?
     // Unique first title characters (for Title index table)
-    static var titlesIndexDictionary: [String : [VMRPacket]]?
+    static var titlesIndexDictionary: [String : [MuseumAppPacket]]?
     // Location:
-    static var locationDictionary: [String : [VMRPacket]]?
+    static var locationDictionary: [String : [MuseumAppPacket]]?
 
     // Regular array of packets sorted by date
-    static var packetsSortedByDate: [VMRPacket]?
+    static var packetsSortedByDate: [MuseumAppPacket]?
     
     // Only one instance of this will be allocaed an filled in
-    static var privateSharedViewMasterPackets: VMRViewMasterPackets?
+    static var privateSharedViewMasterPackets: MuseumAppViewMasterPackets?
     
     
-    static func packetsInLocation (location: String) -> [VMRPacket]? {
+    static func packetsInLocation (location: String) -> [MuseumAppPacket]? {
         return locationDictionary![location]
     }
     
-    static func packetsWithInitialLetter (letter: String) -> [VMRPacket]? {
+    static func packetsWithInitialLetter (letter: String) -> [MuseumAppPacket]? {
  //       println("packetsWithInitialLetter")
         return titlesIndexDictionary![letter]
     }
     
     init () {
-        VMRViewMasterPackets.privateSharedViewMasterPackets = nil
-        VMRViewMasterPackets.packetLocation = [String]()
-        VMRViewMasterPackets.packetTitleIndexArray = [String]()
-        VMRViewMasterPackets.locationDictionary = [String : [VMRPacket]]()
-        VMRViewMasterPackets.titlesDictionary = [String : VMRPacket]()
-        VMRViewMasterPackets.titlesIndexDictionary = [String : [VMRPacket]]()
-        VMRViewMasterPackets.packetsSortedByDate = [VMRPacket]()
+        MuseumAppViewMasterPackets.privateSharedViewMasterPackets = nil
+        MuseumAppViewMasterPackets.packetLocation = [String]()
+        MuseumAppViewMasterPackets.packetTitleIndexArray = [String]()
+        MuseumAppViewMasterPackets.locationDictionary = [String : [MuseumAppPacket]]()
+        MuseumAppViewMasterPackets.titlesDictionary = [String : MuseumAppPacket]()
+        MuseumAppViewMasterPackets.titlesIndexDictionary = [String : [MuseumAppPacket]]()
+        MuseumAppViewMasterPackets.packetsSortedByDate = [MuseumAppPacket]()
     }
     
 // Initialize the MODEL
-    static func sharedViewMasterPackets() -> VMRViewMasterPackets? {
+    static func sharedViewMasterPackets() -> MuseumAppViewMasterPackets? {
         // Make and initialize this only one time
-        if VMRViewMasterPackets.privateSharedViewMasterPackets != nil {
+        if MuseumAppViewMasterPackets.privateSharedViewMasterPackets != nil {
             return privateSharedViewMasterPackets
         }
         
         // If we're still here, we need to set up everything in the VM data model
-        VMRViewMasterPackets.privateSharedViewMasterPackets = VMRViewMasterPackets()
+        MuseumAppViewMasterPackets.privateSharedViewMasterPackets = MuseumAppViewMasterPackets()
         
         // Read the plist array that contains all of the packet data:
         //    Array elements are individual dictionaries, 1 per packet
@@ -69,7 +69,7 @@ class VMRViewMasterPackets {
             for eachPacketDictionary in rawPacketsArray {
                 
                 // Create a packet instance for each --- "unpack" the dictionary
-                let aPacket = VMRPacket(aDictionary: eachPacketDictionary as! NSDictionary)
+                let aPacket = MuseumAppPacket(aDictionary: eachPacketDictionary as! NSDictionary)
                 
                 // Store the packet in the packets dictionary with title as key
                 titlesDictionary![aPacket.title] = aPacket
@@ -86,7 +86,7 @@ class VMRViewMasterPackets {
                 // If an array already exists for the title's first letter, add this
                 //    packet to it; otherwise, create the array first
                 if titlesIndexDictionary![titleFirstLetter] == nil {
-                    titlesIndexDictionary![titleFirstLetter] = [VMRPacket]()
+                    titlesIndexDictionary![titleFirstLetter] = [MuseumAppPacket]()
                 }
                 titlesIndexDictionary![titleFirstLetter]!.append(aPacket)
                 
@@ -124,7 +124,7 @@ class VMRViewMasterPackets {
         // Still here?
         // Then didn't find it: Make a new one, and an array of packets to go with it
         packetLocation!.append(location)
-        locationDictionary![location] = [VMRPacket]()
+        locationDictionary![location] = [MuseumAppPacket]()
     }
 
 //// By title...
@@ -178,8 +178,8 @@ class VMRViewMasterPackets {
     // airportNames is ["Toronto Pearson", "London Heathrow"]
     Swift’s Dictionary type does not have a defined ordering. To iterate over the keys or values of a dictionary in a specific order, use the global sorted function on its keys or values property.
 */
-    static func presortPacketsByDate() -> [VMRPacket] {
-        let sortedByDate = [VMRPacket](titlesDictionary!.values).sorted { $0.date < $1.date }
+    static func presortPacketsByDate() -> [MuseumAppPacket] {
+        let sortedByDate = [MuseumAppPacket](titlesDictionary!.values).sorted { $0.date < $1.date }
         return sortedByDate
     }
 }

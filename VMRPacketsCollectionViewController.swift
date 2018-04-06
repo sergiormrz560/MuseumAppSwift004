@@ -1,5 +1,5 @@
 //
-//  VMRPacketsCollectionViewController.swift
+//  MuseumAppPacketsCollectionViewController.swift
 //  ViewMasterSwift
 //
 //  Created by Robert England on 3/11/18.
@@ -9,12 +9,12 @@
 import UIKit
 
 
-class VMRPacketsCollectionViewController : UICollectionViewController {
-    var dataSource : VMRPacketsCollectionDataSourceProtocol? {
+class MuseumAppPacketsCollectionViewController : UICollectionViewController {
+    var dataSource : MuseumAppPacketsCollectionDataSourceProtocol? {
       didSet {
         
             // Set the title and tab bar images from the dataSource object
-            // They have to be there because of the VMRPacketDataSourceProtocol
+            // They have to be there because of the MuseumAppPacketDataSourceProtocol
             self.title = self.dataSource!.name
             self.tabBarItem.image = self.dataSource!.tabBarImage
             
@@ -73,7 +73,7 @@ class VMRPacketsCollectionViewController : UICollectionViewController {
             
             // Find the corresponding view controller
             let aPacket = dataSource!.packetForindexPath(indexPath: selectedIndexPath!)
-            let viewController: VMRPacketViewController? = segue.destination as? VMRPacketViewController
+            let viewController: MuseumAppPacketViewController? = segue.destination as? MuseumAppPacketViewController
             
             if viewController != nil {
                 // Hide the bottom tab bar when we push this new view controller
