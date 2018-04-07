@@ -802,7 +802,7 @@ Fetal skeleton, human skull, and a 14-inch hairball
 		<key>location</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
-		<string></string>
+		<string>2017</string>
 		<key>title</key>
 		<string>Baby figures</string>
 		<key>imageFileNameBase</key>
@@ -812,7 +812,7 @@ Fetal skeleton, human skull, and a 14-inch hairball
 		<key>location</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
-		<string></string>
+		<string>2017</string>
 		<key>title</key>
 		<string>A man figure</string>
 		<key>imageFileNameBase</key>
@@ -822,7 +822,7 @@ Fetal skeleton, human skull, and a 14-inch hairball
 		<key>location</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
-		<string></string>
+		<string>2017</string>
 		<key>title</key>
 		<string>A bird model</string>
 		<key>imageFileNameBase</key>
@@ -844,7 +844,7 @@ Fetal skeleton, human skull, and a 14-inch hairball
 		<key>date</key>
 		<string>1820</string>
 		<key>title</key>
-		<string>This wax anatomical model of a woman
+		<string>The wax anatomical model of a woman
 </string>
 		<key>imageFileNameBase</key>
 		<string>C9</string>
