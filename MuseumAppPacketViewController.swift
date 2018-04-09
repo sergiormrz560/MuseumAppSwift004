@@ -27,7 +27,7 @@ class MuseumAppPacketViewController: UIViewController {
     private var packetFlippedView: MuseumAppPacketFlippedView!
     private var flipIndicatorButton: UIButton!
     
-    private var ebayButton: UIButton!
+   // private var ebayButton: UIButton!
     
     // MARK:  -
     
@@ -46,7 +46,7 @@ class MuseumAppPacketViewController: UIViewController {
                               height: preferredPacketViewSize.height)
         
         //// RE:: take a shot at setting up the eBay button
-        self.setupUserInterface()
+     //   self.setupUserInterface()
         
         // create the packet view
         let tempPacketView = MuseumAppPacketView(frame: viewRect)
@@ -162,7 +162,7 @@ class MuseumAppPacketViewController: UIViewController {
         self.view.isUserInteractionEnabled = true
         self.flipIndicatorButton.isUserInteractionEnabled = true
     }
-    
+    /*
     // try to find this packet for sale on eBay
     @objc func jumpToEbay(_ sender: AnyObject) {
         // print("Jumping to eBay?...")
@@ -182,9 +182,9 @@ class MuseumAppPacketViewController: UIViewController {
         if !UIApplication.shared.openURL(URL(string: eBayURLString)!) {
             print("Yikes! Couldn't get to eBay!")
         }
-    }
+    }*/
     
-    private func setupUserInterface() {
+  /*  private func setupUserInterface() {
         
         let buttonFrame = CGRect(x: 40.0, y: 60.0, width: 120.0, height: 120.0)
         
@@ -203,5 +203,5 @@ class MuseumAppPacketViewController: UIViewController {
         self.ebayButton.addTarget(self, action:#selector(MuseumAppPacketViewController.jumpToEbay(_:)), for: UIControlEvents.touchUpInside)
         
         self.view.addSubview(self.ebayButton)
-    }
+    }*/
 }

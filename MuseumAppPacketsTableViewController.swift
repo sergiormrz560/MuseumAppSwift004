@@ -37,7 +37,7 @@ class MuseumAppPacketsTableViewController : UITableViewController {
         
         // Create a custom navigation bar button and set it to always say "Packets"
         let tempBarButtonItem = UIBarButtonItem()
-        tempBarButtonItem.title = "Packets"
+        tempBarButtonItem.title = "See All"
         self.navigationItem.backBarButtonItem = tempBarButtonItem
     }
     
