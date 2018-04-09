@@ -3,7 +3,7 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1200</string>
@@ -13,7 +13,7 @@
 		<string>A1</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 200</string>
@@ -23,7 +23,7 @@
 		<string>A2</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 300</string>
@@ -33,7 +33,7 @@
 		<string>A4</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 300</string>
@@ -43,7 +43,7 @@
 		<string>A5</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1400</string>
@@ -53,7 +53,7 @@
 		<string>A6</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1325</string>
@@ -63,7 +63,7 @@
 		<string>A7</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1325</string>
@@ -73,7 +73,7 @@
 		<string>A8</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>600 BC</string>
@@ -83,7 +83,7 @@
 		<string>A9</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1325</string>
@@ -93,7 +93,7 @@
 		<string>A10</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 500</string>
@@ -103,7 +103,7 @@
 		<string>A11</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1000</string>
@@ -113,7 +113,7 @@
 		<string>A12</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>300 BC</string>
@@ -123,7 +123,7 @@
 		<string>A13</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -133,7 +133,7 @@
 		<string>A14</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 600</string>
@@ -143,7 +143,7 @@
 		<string>A15</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 500</string>
@@ -153,7 +153,7 @@
 		<string>A16</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 900</string>
@@ -163,7 +163,7 @@
 		<string>A17</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -173,7 +173,7 @@
 		<string>A18</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1200</string>
@@ -183,7 +183,7 @@
 		<string>A19</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -193,7 +193,7 @@
 		<string>A20</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Guatemala</string>
 		<key>date</key>
 		<string>AD 350</string>
@@ -203,7 +203,7 @@
 		<string>A21</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>400 BC</string>
@@ -213,7 +213,7 @@
 		<string>A22</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -223,7 +223,7 @@
 		<string>A23</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>800 BC</string>
@@ -233,7 +233,7 @@
 		<string>A24</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1350</string>
@@ -243,7 +243,7 @@
 		<string>A25</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -253,7 +253,7 @@
 		<string>A26</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 200</string>
@@ -263,7 +263,7 @@
 		<string>A27</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>300 BC</string>
@@ -273,7 +273,7 @@
 		<string>A28</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -283,7 +283,7 @@
 		<string>A29</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>400 BC</string>
@@ -293,7 +293,7 @@
 		<string>A30</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 300</string>
@@ -303,7 +303,7 @@
 		<string>A31</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 900</string>
@@ -313,7 +313,7 @@
 		<string>A32</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>300 BC</string>
@@ -323,7 +323,7 @@
 		<string>A33</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 250</string>
@@ -333,7 +333,7 @@
 		<string>A34</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>150 BC</string>
@@ -343,7 +343,7 @@
 		<string>A35</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1300</string>
@@ -353,7 +353,7 @@
 		<string>A36</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>150 BC</string>
@@ -363,7 +363,7 @@
 		<string>A37</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Mexico</string>
 		<key>date</key>
 		<string>AD 1300</string>
@@ -373,7 +373,7 @@
 		<string>A38</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Guatemala</string>
 		<key>date</key>
 		<string>AD 500</string>
@@ -383,7 +383,7 @@
 		<string>A39</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Ecuador</string>
 		<key>date</key>
 		<string>AD 1425</string>
@@ -393,7 +393,7 @@
 		<string>B40</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Ecuador</string>
 		<key>date</key>
 		<string>AD 500</string>
@@ -403,7 +403,7 @@
 		<string>B41</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1550</string>
@@ -413,7 +413,7 @@
 		<string>B42</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1475</string>
@@ -423,7 +423,7 @@
 		<string>B43</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1700</string>
@@ -433,7 +433,7 @@
 		<string>B44</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 200</string>
@@ -443,7 +443,7 @@
 		<string>B45</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1475</string>
@@ -453,7 +453,7 @@
 		<string>B46</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1300</string>
@@ -463,7 +463,7 @@
 		<string>B47</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1500</string>
@@ -473,7 +473,7 @@
 		<string>B48</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1700</string>
@@ -483,7 +483,7 @@
 		<string>B49</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1550</string>
@@ -493,7 +493,7 @@
 		<string>B50</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 750</string>
@@ -503,7 +503,7 @@
 		<string>B51</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1200</string>
@@ -513,7 +513,7 @@
 		<string>B52</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 200</string>
@@ -523,7 +523,7 @@
 		<string>B53</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1550</string>
@@ -533,7 +533,7 @@
 		<string>B54</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -543,7 +543,7 @@
 		<string>B55</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1550</string>
@@ -553,7 +553,7 @@
 		<string>B56</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 100</string>
@@ -563,7 +563,7 @@
 		<string>B57</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1200</string>
@@ -573,7 +573,7 @@
 		<string>B58</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1200</string>
@@ -583,7 +583,7 @@
 		<string>B59</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -593,7 +593,7 @@
 		<string>B60</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Bolivia</string>
 		<key>date</key>
 		<string>AD 600</string>
@@ -603,7 +603,7 @@
 		<string>B61</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Bolivia</string>
 		<key>date</key>
 		<string>AD 1000</string>
@@ -613,7 +613,7 @@
 		<string>B62</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 200</string>
@@ -623,7 +623,7 @@
 		<string>B63</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1400</string>
@@ -633,7 +633,7 @@
 		<string>B64</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 200</string>
@@ -643,7 +643,7 @@
 		<string>B65</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1200</string>
@@ -653,7 +653,7 @@
 		<string>B66</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 600</string>
@@ -663,7 +663,7 @@
 		<string>B67</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Bolivia</string>
 		<key>date</key>
 		<string>AD 750</string>
@@ -673,7 +673,7 @@
 		<string>B68</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 800</string>
@@ -683,7 +683,7 @@
 		<string>B69</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Ecuador</string>
 		<key>date</key>
 		<string>AD 100</string>
@@ -693,7 +693,7 @@
 		<string>B71</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 1425</string>
@@ -703,7 +703,7 @@
 		<string>B72</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Bolivia</string>
 		<key>date</key>
 		<string>AD 600</string>
@@ -713,7 +713,7 @@
 		<string>B73</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Ecuador</string>
 		<key>date</key>
 		<string>600 BC</string>
@@ -723,7 +723,7 @@
 		<string>B74</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Ecuado</string>
 		<key>date</key>
 		<string>AD 400</string>
@@ -733,7 +733,7 @@
 		<string>B75</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 700</string>
@@ -743,7 +743,7 @@
 		<string>B76</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Peru</string>
 		<key>date</key>
 		<string>AD 900</string>
@@ -753,7 +753,7 @@
 		<string>B77</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Ecuador</string>
 		<key>date</key>
 		<string>4000 BC</string>
@@ -763,7 +763,7 @@
 		<string>B78</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>1848</string>
@@ -773,7 +773,7 @@
 		<string>C1</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>1848</string>
@@ -783,7 +783,7 @@
 		<string>C2</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>1848</string>
@@ -793,7 +793,7 @@
 		<string>C3</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>2017</string>
@@ -803,7 +803,7 @@
 		<string>C4</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>2017</string>
@@ -813,7 +813,7 @@
 		<string>C5</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>2017</string>
@@ -823,7 +823,7 @@
 		<string>C6</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>1800</string>
@@ -833,7 +833,7 @@
 		<string>C8</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>1820</string>
@@ -844,7 +844,7 @@
 		<string>C9</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>1800</string>
@@ -855,7 +855,7 @@
 		<string>C11</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>2017</string>
@@ -865,7 +865,7 @@
 		<string>D1</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>2017</string>
@@ -875,7 +875,7 @@
 		<string>D2</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>2017</string>
@@ -885,7 +885,7 @@
 		<string>D3</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>2017</string>
@@ -895,7 +895,7 @@
 		<string>D4</string>
 	</dict>
 	<dict>
-		<key>location</key>
+		<key>category</key>
 		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
 		<key>date</key>
 		<string>2017</string>
