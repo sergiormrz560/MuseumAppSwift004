@@ -30,6 +30,8 @@ class MuseumAppPacketsTableViewController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tableView.backgroundColor = UIColor.lightGray
+        
         // [From doc:] "The number of table rows at which to display the index list on the right edge of the table."
         self.tableView.sectionIndexMinimumDisplayRowCount = 10
         self.tableView.delegate = self
