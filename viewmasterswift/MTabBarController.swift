@@ -7,9 +7,9 @@ class MTabBarController: UITabBarController {
         override func viewDidLoad() {
                 super.viewDidLoad()
             
-            var window: UIWindow?
+           // var window: UIWindow?
             //    private func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-            func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+      //      func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
                 // Override point for customization after application launch.
                 // print("Hello?")
                 _ = MuseumAppViewMasterPackets.sharedViewMasterPackets()
@@ -35,7 +35,7 @@ class MTabBarController: UITabBarController {
                 // We then need to create an instance of MuseumAppPacketsTableViewCOntroller with that data source instance.
                 // Finally, we need to return a UINavigationController for each screen, with the MuseumAppPacketViewCOntroller
                 //    as its root view controller
-              //  let tabBarController = self.window?.rootViewController as! UITabBarController
+              //  let tabBarController = window?.inputViewController//rootViewController as! UITabBarController
                 
                 // The class for the data source is not important, but it must implement the
                 //    MuseumAppPacketDataSourceProtocol (...and the UITableViewDataSource protocol, too?)
@@ -72,10 +72,11 @@ class MTabBarController: UITabBarController {
                 tempViewControllers.append(tempNavController)
                 // print("Got this far... Grid VC exists")
                 
-                tabBarController?.viewControllers = tempViewControllers
+          //  tabBarController.viewControllers = tempViewControllers
+            self.viewControllers = tempViewControllers
                 
-                return true
-            }
+      //          return true
+   //         }
             
     }
     
