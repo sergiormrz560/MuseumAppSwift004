@@ -740,8 +740,8 @@
 			isa = PBXGroup;
 			children = (
 				116B212C207BF5CE00E2787F /* MTabBarController.swift */,
-				C3411822207824BE00913258 /* Data */,
 				595A5A441B20DAC3007957A4 /* MuseumApp-bridging-header.h */,
+				C3411822207824BE00913258 /* Data */,
 				595A5A351B20D3AB007957A4 /* Single Packet View */,
 				59617B271B1E53130013149B /* View Controllers */,
 				59617B201B1E19560013149B /* Data Sources */,
