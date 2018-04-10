@@ -34,9 +34,9 @@ class MuseumAppPacketViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+
         
-        
-        createParticles()
+        // createParticles()
         
         
         
