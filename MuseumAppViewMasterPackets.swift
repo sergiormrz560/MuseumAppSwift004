@@ -12,7 +12,7 @@
 import Foundation
 
 class MuseumAppViewMasterPackets {
-    static var packetLocation: [String]?
+    static var packetCategory: [String]?
     static var packetTitleIndexArray: [String]?
     
     // Dictionaries that will contain arrays of packets indexed by...
@@ -20,8 +20,8 @@ class MuseumAppViewMasterPackets {
     static var titlesDictionary: [String : MuseumAppPacket]?
     // Unique first title characters (for Title index table)
     static var titlesIndexDictionary: [String : [MuseumAppPacket]]?
-    // Location:
-    static var locationDictionary: [String : [MuseumAppPacket]]?
+    // Category:
+    static var categoryDictionary: [String : [MuseumAppPacket]]?
 
     // Regular array of packets sorted by date
     static var packetsSortedByDate: [MuseumAppPacket]?
@@ -30,8 +30,8 @@ class MuseumAppViewMasterPackets {
     static var privateSharedViewMasterPackets: MuseumAppViewMasterPackets?
     
     
-    static func packetsInLocation (location: String) -> [MuseumAppPacket]? {
-        return locationDictionary![location]
+    static func packetsInCategory (category: String) -> [MuseumAppPacket]? {
+        return categoryDictionary![category]
     }
     
     static func packetsWithInitialLetter (letter: String) -> [MuseumAppPacket]? {
@@ -41,9 +41,9 @@ class MuseumAppViewMasterPackets {
     
     init () {
         MuseumAppViewMasterPackets.privateSharedViewMasterPackets = nil
-        MuseumAppViewMasterPackets.packetLocation = [String]()
+        MuseumAppViewMasterPackets.packetCategory = [String]()
         MuseumAppViewMasterPackets.packetTitleIndexArray = [String]()
-        MuseumAppViewMasterPackets.locationDictionary = [String : [MuseumAppPacket]]()
+        MuseumAppViewMasterPackets.categoryDictionary = [String : [MuseumAppPacket]]()
         MuseumAppViewMasterPackets.titlesDictionary = [String : MuseumAppPacket]()
         MuseumAppViewMasterPackets.titlesIndexDictionary = [String : [MuseumAppPacket]]()
         MuseumAppViewMasterPackets.packetsSortedByDate = [MuseumAppPacket]()
@@ -56,7 +56,7 @@ class MuseumAppViewMasterPackets {
             return privateSharedViewMasterPackets
         }
         
-        // If we're still here, we need to set up everything in the VM data model
+        // If we're still here, we need to set up everything in the Museum data model
         MuseumAppViewMasterPackets.privateSharedViewMasterPackets = MuseumAppViewMasterPackets()
         
         // Read the plist array that contains all of the packet data:
@@ -74,11 +74,11 @@ class MuseumAppViewMasterPackets {
                 // Store the packet in the packets dictionary with title as key
                 titlesDictionary![aPacket.title] = aPacket
                 
-                // Make sure that the location for this packet exists
-                registerLocation(location: aPacket.location)
+                // Make sure that the category for this packet exists
+                registerCategory(category: aPacket.category)
                 
-                // Add the packet to the appropriate array in the location dictionary
-                locationDictionary![aPacket.location]!.append(aPacket)
+                // Add the packet to the appropriate array in the category dictionary
+                categoryDictionary![aPacket.category]!.append(aPacket)
                 
                 //// (borrowed from PeriodicElements.swift)
                 let titleFirstLetter = aPacket.title.substring(to: aPacket.title.index(after: aPacket.title.startIndex))
@@ -92,11 +92,11 @@ class MuseumAppViewMasterPackets {
                 
             }
             
-            // Sort the location names
-            packetLocation = packetLocation!.sorted { $0 < $1 }
+            // Sort the category names
+            packetCategory = packetCategory!.sorted { $0 < $1 }
             
-            // Presort packets within each location
-            presortPacketsByLocation()
+            // Presort packets within each category
+            presortPacketsByCategory()
             
             // Presort packets' titles' first letters
             presortPacketTitleInitialLetterIndexes()
@@ -113,18 +113,18 @@ class MuseumAppViewMasterPackets {
     }
     
 // See if this category exists; If not, then create it
-    static func registerLocation(location: String) {
+    static func registerCategory(category: String) {
         // Does this category already exist?
         // If so, nothing to do: return
-        for eachLocation in packetLocation! {
-            if eachLocation == location {
+        for eachCategory in packetCategory! {
+            if eachCategory == category {
                 return
             }
         }
         // Still here?
         // Then didn't find it: Make a new one, and an array of packets to go with it
-        packetLocation!.append(location)
-        locationDictionary![location] = [MuseumAppPacket]()
+        packetCategory!.append(category)
+        categoryDictionary![category] = [MuseumAppPacket]()
     }
 
 //// By title...
@@ -154,19 +154,19 @@ class MuseumAppViewMasterPackets {
         titlesIndexDictionary![aLetter]! = sortedByFirstLetter!
     }
     
-//// Packets by location...
+//// Packets by category...
     
-    // Presort each of the location arrays [for separate sections in a table]
-    static func presortPacketsByLocation() {
-        for eachLocation in packetLocation! {
-            presortPacketsWithLocation(location: eachLocation)
+    // Presort each of the category arrays [for separate sections in a table]
+    static func presortPacketsByCategory() {
+        for eachCategory in packetCategory! {
+            presortPacketsWithCategory(category: eachCategory)
         }
     }
     
-    // Sort all of the packets in one location
-    static func presortPacketsWithLocation(location : String) {
-        let sortedByLocation = locationDictionary![location]?.sorted { $0.title < $1.title }
-        locationDictionary![location]! = sortedByLocation!
+    // Sort all of the packets in one category
+    static func presortPacketsWithCategory(category : String) {
+        let sortedByCategory = categoryDictionary![category]?.sorted { $0.title < $1.title }
+        categoryDictionary![category]! = sortedByCategory!
     }
     
 //// Packets by date...

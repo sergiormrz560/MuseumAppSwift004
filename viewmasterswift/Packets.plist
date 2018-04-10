@@ -3,8 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1200</string>
 		<key>title</key>
@@ -13,8 +13,8 @@
 		<string>A1</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 200</string>
 		<key>title</key>
@@ -23,8 +23,8 @@
 		<string>A2</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 300</string>
 		<key>title</key>
@@ -33,8 +33,8 @@
 		<string>A4</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 300</string>
 		<key>title</key>
@@ -43,8 +43,8 @@
 		<string>A5</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1400</string>
 		<key>title</key>
@@ -53,8 +53,8 @@
 		<string>A6</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1325</string>
 		<key>title</key>
@@ -63,8 +63,8 @@
 		<string>A7</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1325</string>
 		<key>title</key>
@@ -73,8 +73,8 @@
 		<string>A8</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>600 BC</string>
 		<key>title</key>
@@ -83,8 +83,8 @@
 		<string>A9</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1325</string>
 		<key>title</key>
@@ -93,8 +93,8 @@
 		<string>A10</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 500</string>
 		<key>title</key>
@@ -103,8 +103,8 @@
 		<string>A11</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1000</string>
 		<key>title</key>
@@ -113,8 +113,8 @@
 		<string>A12</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>300 BC</string>
 		<key>title</key>
@@ -123,8 +123,8 @@
 		<string>A13</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -133,8 +133,8 @@
 		<string>A14</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 600</string>
 		<key>title</key>
@@ -143,8 +143,8 @@
 		<string>A15</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 500</string>
 		<key>title</key>
@@ -153,8 +153,8 @@
 		<string>A16</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 900</string>
 		<key>title</key>
@@ -163,8 +163,8 @@
 		<string>A17</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -173,8 +173,8 @@
 		<string>A18</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1200</string>
 		<key>title</key>
@@ -183,8 +183,8 @@
 		<string>A19</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -193,8 +193,8 @@
 		<string>A20</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Guatemala</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 350</string>
 		<key>title</key>
@@ -203,8 +203,8 @@
 		<string>A21</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>400 BC</string>
 		<key>title</key>
@@ -213,8 +213,8 @@
 		<string>A22</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -223,8 +223,8 @@
 		<string>A23</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>800 BC</string>
 		<key>title</key>
@@ -233,8 +233,8 @@
 		<string>A24</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1350</string>
 		<key>title</key>
@@ -243,8 +243,8 @@
 		<string>A25</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -253,8 +253,8 @@
 		<string>A26</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 200</string>
 		<key>title</key>
@@ -263,8 +263,8 @@
 		<string>A27</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>300 BC</string>
 		<key>title</key>
@@ -273,8 +273,8 @@
 		<string>A28</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -283,8 +283,8 @@
 		<string>A29</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>400 BC</string>
 		<key>title</key>
@@ -293,8 +293,8 @@
 		<string>A30</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 300</string>
 		<key>title</key>
@@ -303,8 +303,8 @@
 		<string>A31</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 900</string>
 		<key>title</key>
@@ -313,8 +313,8 @@
 		<string>A32</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>300 BC</string>
 		<key>title</key>
@@ -323,8 +323,8 @@
 		<string>A33</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 250</string>
 		<key>title</key>
@@ -333,8 +333,8 @@
 		<string>A34</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>150 BC</string>
 		<key>title</key>
@@ -343,8 +343,8 @@
 		<string>A35</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1300</string>
 		<key>title</key>
@@ -353,8 +353,8 @@
 		<string>A36</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>150 BC</string>
 		<key>title</key>
@@ -363,8 +363,8 @@
 		<string>A37</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1300</string>
 		<key>title</key>
@@ -373,8 +373,8 @@
 		<string>A38</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Guatemala</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 500</string>
 		<key>title</key>
@@ -383,8 +383,8 @@
 		<string>A39</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1425</string>
 		<key>title</key>
@@ -393,8 +393,8 @@
 		<string>B40</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 500</string>
 		<key>title</key>
@@ -403,8 +403,8 @@
 		<string>B41</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1550</string>
 		<key>title</key>
@@ -413,8 +413,8 @@
 		<string>B42</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1475</string>
 		<key>title</key>
@@ -423,8 +423,8 @@
 		<string>B43</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1700</string>
 		<key>title</key>
@@ -433,8 +433,8 @@
 		<string>B44</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 200</string>
 		<key>title</key>
@@ -443,8 +443,8 @@
 		<string>B45</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1475</string>
 		<key>title</key>
@@ -453,8 +453,8 @@
 		<string>B46</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1300</string>
 		<key>title</key>
@@ -463,8 +463,8 @@
 		<string>B47</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1500</string>
 		<key>title</key>
@@ -473,8 +473,8 @@
 		<string>B48</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1700</string>
 		<key>title</key>
@@ -483,8 +483,8 @@
 		<string>B49</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1550</string>
 		<key>title</key>
@@ -493,8 +493,8 @@
 		<string>B50</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 750</string>
 		<key>title</key>
@@ -503,8 +503,8 @@
 		<string>B51</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1200</string>
 		<key>title</key>
@@ -513,8 +513,8 @@
 		<string>B52</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 200</string>
 		<key>title</key>
@@ -523,8 +523,8 @@
 		<string>B53</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1550</string>
 		<key>title</key>
@@ -533,8 +533,8 @@
 		<string>B54</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -543,8 +543,8 @@
 		<string>B55</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1550</string>
 		<key>title</key>
@@ -553,8 +553,8 @@
 		<string>B56</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 100</string>
 		<key>title</key>
@@ -563,8 +563,8 @@
 		<string>B57</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1200</string>
 		<key>title</key>
@@ -573,8 +573,8 @@
 		<string>B58</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1200</string>
 		<key>title</key>
@@ -583,8 +583,8 @@
 		<string>B59</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -593,8 +593,8 @@
 		<string>B60</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Bolivia</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 600</string>
 		<key>title</key>
@@ -603,8 +603,8 @@
 		<string>B61</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Bolivia</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1000</string>
 		<key>title</key>
@@ -613,8 +613,8 @@
 		<string>B62</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 200</string>
 		<key>title</key>
@@ -623,8 +623,8 @@
 		<string>B63</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1400</string>
 		<key>title</key>
@@ -633,8 +633,8 @@
 		<string>B64</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 200</string>
 		<key>title</key>
@@ -643,8 +643,8 @@
 		<string>B65</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1200</string>
 		<key>title</key>
@@ -653,8 +653,8 @@
 		<string>B66</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 600</string>
 		<key>title</key>
@@ -663,8 +663,8 @@
 		<string>B67</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Bolivia</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 750</string>
 		<key>title</key>
@@ -673,8 +673,8 @@
 		<string>B68</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 800</string>
 		<key>title</key>
@@ -683,8 +683,8 @@
 		<string>B69</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 100</string>
 		<key>title</key>
@@ -693,8 +693,8 @@
 		<string>B71</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 1425</string>
 		<key>title</key>
@@ -703,8 +703,8 @@
 		<string>B72</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Bolivia</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 600</string>
 		<key>title</key>
@@ -713,8 +713,8 @@
 		<string>B73</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>600 BC</string>
 		<key>title</key>
@@ -723,8 +723,8 @@
 		<string>B74</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuado</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 400</string>
 		<key>title</key>
@@ -733,8 +733,8 @@
 		<string>B75</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 700</string>
 		<key>title</key>
@@ -743,8 +743,8 @@
 		<string>B76</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>AD 900</string>
 		<key>title</key>
@@ -753,8 +753,8 @@
 		<string>B77</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>4000 BC</string>
 		<key>title</key>
@@ -763,8 +763,8 @@
 		<string>B78</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1848</string>
 		<key>title</key>
@@ -773,8 +773,8 @@
 		<string>C1</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1848</string>
 		<key>title</key>
@@ -783,8 +783,8 @@
 		<string>C2</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1848</string>
 		<key>title</key>
@@ -793,8 +793,8 @@
 		<string>C3</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Biological artifacts</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -803,8 +803,8 @@
 		<string>C4</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Biological artifacts</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -813,8 +813,8 @@
 		<string>C5</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Biological artifacts</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -823,8 +823,8 @@
 		<string>C6</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1800</string>
 		<key>title</key>
@@ -833,8 +833,8 @@
 		<string>C8</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1820</string>
 		<key>title</key>
@@ -844,8 +844,9 @@
 		<string>C9</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical and scientific artifacts
+Medical and scientific artifacts</string>
 		<key>date</key>
 		<string>1800</string>
 		<key>title</key>
@@ -855,8 +856,8 @@
 		<string>C11</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -865,8 +866,8 @@
 		<string>D1</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -875,8 +876,8 @@
 		<string>D2</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -885,8 +886,8 @@
 		<string>D3</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -895,8 +896,8 @@
 		<string>D4</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
