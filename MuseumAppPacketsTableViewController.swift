@@ -41,6 +41,7 @@ class MuseumAppPacketsTableViewController : UITableViewController {
         let tempBarButtonItem = UIBarButtonItem()
         tempBarButtonItem.title = "See All"
         self.navigationItem.backBarButtonItem = tempBarButtonItem
+        self.tableView.separatorStyle = .none
     }
     
     // [Next method: In TheElements, but not in the template...]
