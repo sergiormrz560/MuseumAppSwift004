@@ -22,17 +22,17 @@ class MuseumAppPacket: CustomStringConvertible {
     var imageFileNameBase: String
     var frontImage: UIImage?
     var backImage: UIImage?
-    var location: String
+    var category: String
     var subcategory: String?
     
 // Various initializers
     
     init(title: String, date: String, imageFileNameBase: String,
-        location: String, subcategory: String) {
+        category: String, subcategory: String) {
             self.title = title
             self.date = date
             self.imageFileNameBase = imageFileNameBase
-            self.location = location
+            self.category = category
             self.subcategory = subcategory
             
             self.backImage = nil
@@ -43,7 +43,7 @@ class MuseumAppPacket: CustomStringConvertible {
             self.title = ""
             self.date = ""
             self.imageFileNameBase = ""
-            self.location = ""
+            self.category = ""
             self.subcategory = ""
             
             self.backImage = nil
@@ -54,7 +54,7 @@ class MuseumAppPacket: CustomStringConvertible {
         self.title = aDictionary.value(forKey: "title") as! String
         self.date = aDictionary.value(forKey: "date") as! String
         self.imageFileNameBase = aDictionary.value(forKey: "imageFileNameBase") as! String
-        self.location = aDictionary.value(forKey: "location") as! String
+        self.category = aDictionary.value(forKey: "category") as! String
         if let aSubcategory = aDictionary.value(forKey: "subcategory") as? String {
             self.subcategory = aSubcategory
         }
@@ -67,7 +67,7 @@ class MuseumAppPacket: CustomStringConvertible {
     
     // [Printable] Return a description string of this object
     var description: String {
-        return "Date \(date), \(title): Loc: \(location), Subcat: \(String(describing: subcategory)) ImBase: \(imageFileNameBase)"
+        return "Date \(date), \(title): Cat: \(category), Subcat: \(String(describing: subcategory)) ImBase: \(imageFileNameBase)"
     }
 
     // main front image

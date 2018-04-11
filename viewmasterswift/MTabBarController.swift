@@ -59,10 +59,10 @@ class MTabBarController: UITabBarController {
                 tempViewController.dataSource = MuseumAppPacketsSortedByDateDataSource()
                 tempViewControllers.append(tempNavController)
                 
-                // Sorted by location...
+                // Sorted by category...
                 tempNavController = storyBoard.instantiateViewController(withIdentifier: "navForTableView") as! UINavigationController
                 tempViewController = tempNavController.topViewController! as! MuseumAppPacketsTableViewController
-                tempViewController.dataSource = MuseumAppPacketsSortedByLocationDataSource()
+                tempViewController.dataSource = MuseumAppPacketsSortedByCategoryDataSource()
                 tempViewControllers.append(tempNavController)
                 
                 // Sorted by date, as a grid...

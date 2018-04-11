@@ -13,24 +13,24 @@ import UIKit
 // Note: Thie *automatically* picks up UITableDataSource protocol through
 //    MuseumAppPacketsTableDataSourceProtocol
 
-class MuseumAppPacketsSortedByLocationDataSource: NSObject, MuseumAppPacketsTableDataSourceProtocol {
+class MuseumAppPacketsSortedByCategoryDataSource: NSObject, MuseumAppPacketsTableDataSourceProtocol {
     
     //// Protocol methods to comply with "MuseumAppPacketsDataSource" protocol
     
     // Getters for properties for navagation and tab bars
     var name: String {
         get {
-            return "Location"
+            return "Category"
         }
     }
     var navigationBarName: String {
         get {
-            return "Packets Sorted by Location"
+            return "Packets Sorted by Category"
         }
     }
     var tabBarImage: UIImage {
         get {
-            return UIImage(named: "TabLocation.png")!
+            return UIImage(named: "TabCategory.png")!
         }
     }
     
@@ -47,12 +47,12 @@ class MuseumAppPacketsSortedByLocationDataSource: NSObject, MuseumAppPacketsTabl
         // The section number is the index into the Category array,
         //    the row number is the index into that Category's array of packets.
         
-        // Get the Location
-        let packetLocation = MuseumAppViewMasterPackets.packetLocation![indexPath.section]
+        // Get the Category
+        let packetCategory = MuseumAppViewMasterPackets.packetCategory![indexPath.section]
         
         // Get the packet from that category's array
-        let packetsInThisLocation = MuseumAppViewMasterPackets.packetsInLocation(location: packetLocation)
-        return packetsInThisLocation![indexPath.row]
+        let packetsInThisCategory = MuseumAppViewMasterPackets.packetsInCategory(category: packetCategory)
+        return packetsInThisCategory![indexPath.row]
     }
     
     // (Don't really use this)
@@ -74,7 +74,7 @@ class MuseumAppPacketsSortedByLocationDataSource: NSObject, MuseumAppPacketsTabl
     
     func numberOfSections(in tableView: UITableView) -> Int {
         // The number of different sections in thei table depends on the number of different first letters
-        return MuseumAppViewMasterPackets.packetLocation!.count
+        return MuseumAppViewMasterPackets.packetCategory!.count
     }
   
     func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
@@ -88,15 +88,15 @@ class MuseumAppPacketsSortedByLocationDataSource: NSObject, MuseumAppPacketsTabl
         // This table has one section per location.
         // Return the number of packets in the current category.
 
-        // Get the location name...
-        let locationKey = MuseumAppViewMasterPackets.packetLocation![section]
+        // Get the category name...
+        let categoryKey = MuseumAppViewMasterPackets.packetCategory![section]
 
-        // ... and then get the number of packets in that location
-        let packetsInThisLocation = MuseumAppViewMasterPackets.packetsInLocation(location: locationKey)
+        // ... and then get the number of packets in that category
+        let packetsInThisCategory = MuseumAppViewMasterPackets.packetsInCategory(category: categoryKey)
         
-        // Return how many there are in this location
-        if packetsInThisLocation != nil {
-            return packetsInThisLocation!.count
+        // Return how many there are in this category
+        if packetsInThisCategory != nil {
+            return packetsInThisCategory!.count
         }
         else {
  //           println("whoops!")
@@ -112,7 +112,7 @@ class MuseumAppPacketsSortedByLocationDataSource: NSObject, MuseumAppPacketsTabl
 //            return MuseumAppViewMasterPackets.packetLocation![section]
 //        }
 //        return nil
-        return MuseumAppViewMasterPackets.packetLocation![section]
+        return MuseumAppViewMasterPackets.packetCategory![section]
     }
   
     

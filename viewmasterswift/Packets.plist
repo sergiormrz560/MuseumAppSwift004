@@ -3,78 +3,78 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1200</string>
+		<string>1200 AD </string>
 		<key>title</key>
 		<string>Maskette</string>
 		<key>imageFileNameBase</key>
 		<string>A1</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 200</string>
+		<string>200 AD</string>
 		<key>title</key>
 		<string>Maskette</string>
 		<key>imageFileNameBase</key>
 		<string>A2</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 300</string>
+		<string>300 AD</string>
 		<key>title</key>
 		<string>Pendant representing the Maize God</string>
 		<key>imageFileNameBase</key>
 		<string>A4</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 300</string>
+		<string>300 AD</string>
 		<key>title</key>
 		<string>Sculpture in the form of a human head</string>
 		<key>imageFileNameBase</key>
 		<string>A5</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1400</string>
+		<string>1400 AD</string>
 		<key>title</key>
 		<string>Mask part</string>
 		<key>imageFileNameBase</key>
 		<string>A6</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1325</string>
+		<string>1325 AD</string>
 		<key>title</key>
 		<string>Sculpture representing Tlalchitonatiuh</string>
 		<key>imageFileNameBase</key>
 		<string>A7</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1325</string>
+		<string>1325 AD</string>
 		<key>title</key>
 		<string>Maskette representing the rain god Tláloc</string>
 		<key>imageFileNameBase</key>
 		<string>A8</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>600 BC</string>
 		<key>title</key>
@@ -83,38 +83,38 @@
 		<string>A9</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1325</string>
+		<string>1325 AD</string>
 		<key>title</key>
 		<string>Bowl used to hold hearts of sacrificial victims</string>
 		<key>imageFileNameBase</key>
 		<string>A10</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 500</string>
+		<string>500 AD</string>
 		<key>title</key>
 		<string>Funerary urn</string>
 		<key>imageFileNameBase</key>
 		<string>A11</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1000</string>
+		<string>1000 AD</string>
 		<key>title</key>
 		<string>Puebla-style ring depicting Xipe Totec</string>
 		<key>imageFileNameBase</key>
 		<string>A12</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>300 BC</string>
 		<key>title</key>
@@ -123,88 +123,88 @@
 		<string>A13</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Whistle figure of a woman</string>
 		<key>imageFileNameBase</key>
 		<string>A14</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 600</string>
+		<string>600 AD</string>
 		<key>title</key>
 		<string>Figure of a priest</string>
 		<key>imageFileNameBase</key>
 		<string>A15</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 500</string>
+		<string>500 AD</string>
 		<key>title</key>
 		<string>Trumpet</string>
 		<key>imageFileNameBase</key>
 		<string>A16</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 900</string>
+		<string>900 AD</string>
 		<key>title</key>
 		<string>Human figure</string>
 		<key>imageFileNameBase</key>
 		<string>A17</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Figure of a woman</string>
 		<key>imageFileNameBase</key>
 		<string>A18</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1200</string>
+		<string>1200 AD</string>
 		<key>title</key>
 		<string>Whistling vessel representing Xiuhtecuhtli</string>
 		<key>imageFileNameBase</key>
 		<string>A19</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Figure of the ruler Halach Huinik</string>
 		<key>imageFileNameBase</key>
 		<string>A20</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Guatemala</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 350</string>
+		<string>350 AD</string>
 		<key>title</key>
 		<string>Tripod vessel and cover</string>
 		<key>imageFileNameBase</key>
 		<string>A21</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>400 BC</string>
 		<key>title</key>
@@ -213,18 +213,18 @@
 		<string>A22</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Figure</string>
 		<key>imageFileNameBase</key>
 		<string>A23</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>800 BC</string>
 		<key>title</key>
@@ -233,38 +233,38 @@
 		<string>A24</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1350</string>
+		<string>1350 AD</string>
 		<key>title</key>
 		<string>Cholula-style female figure representing the corn goddess</string>
 		<key>imageFileNameBase</key>
 		<string>A25</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Figure of a priest</string>
 		<key>imageFileNameBase</key>
 		<string>A26</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 200</string>
+		<string>200 AD</string>
 		<key>title</key>
 		<string>Female-figure rattle</string>
 		<key>imageFileNameBase</key>
 		<string>A27</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>300 BC</string>
 		<key>title</key>
@@ -273,18 +273,18 @@
 		<string>A28</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Flute</string>
 		<key>imageFileNameBase</key>
 		<string>A29</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>400 BC</string>
 		<key>title</key>
@@ -293,28 +293,28 @@
 		<string>A30</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 300</string>
+		<string>300 AD</string>
 		<key>title</key>
 		<string>Trumpet</string>
 		<key>imageFileNameBase</key>
 		<string>A31</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 900</string>
+		<string>900 AD</string>
 		<key>title</key>
 		<string>Cempoala-style trumpet</string>
 		<key>imageFileNameBase</key>
 		<string>A32</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>300 BC</string>
 		<key>title</key>
@@ -323,18 +323,18 @@
 		<string>A33</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 250</string>
+		<string>250 AD</string>
 		<key>title</key>
 		<string>Figure of a priest wearing a Tláloc mask</string>
 		<key>imageFileNameBase</key>
 		<string>A34</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>150 BC</string>
 		<key>title</key>
@@ -343,18 +343,18 @@
 		<string>A35</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1300</string>
+		<string>1300 AD</string>
 		<key>title</key>
 		<string>Pipe with jaguar-head rattle</string>
 		<key>imageFileNameBase</key>
 		<string>A36</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>150 BC</string>
 		<key>title</key>
@@ -363,358 +363,358 @@
 		<string>A37</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Mexico</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1300</string>
+		<string>1300 AD</string>
 		<key>title</key>
 		<string>Ritual vessel with spout</string>
 		<key>imageFileNameBase</key>
 		<string>A38</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Guatemala</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 500</string>
+		<string>500 AD</string>
 		<key>title</key>
 		<string>Hacha</string>
 		<key>imageFileNameBase</key>
 		<string>A39</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1425</string>
+		<string>1425 AD</string>
 		<key>title</key>
 		<string>Vessel</string>
 		<key>imageFileNameBase</key>
 		<string>B40</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 500</string>
+		<string>500 AD</string>
 		<key>title</key>
 		<string>Seat</string>
 		<key>imageFileNameBase</key>
 		<string>B41</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1550</string>
+		<string>1550 AD</string>
 		<key>title</key>
 		<string>Qero</string>
 		<key>imageFileNameBase</key>
 		<string>B42</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1475</string>
+		<string>1475 AD</string>
 		<key>title</key>
 		<string>Qero with animal figurehead</string>
 		<key>imageFileNameBase</key>
 		<string>B43</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1700</string>
+		<string>1700 AD</string>
 		<key>title</key>
 		<string>Qero in the form of a jaguar’s head</string>
 		<key>imageFileNameBase</key>
 		<string>B44</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 200</string>
+		<string>200 AD</string>
 		<key>title</key>
 		<string>Panpipes</string>
 		<key>imageFileNameBase</key>
 		<string>B45</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1475</string>
+		<string>1475 AD</string>
 		<key>title</key>
 		<string>Qero</string>
 		<key>imageFileNameBase</key>
 		<string>B46</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1300</string>
+		<string>1300 AD</string>
 		<key>title</key>
 		<string>Qero with bird figurehead</string>
 		<key>imageFileNameBase</key>
 		<string>B47</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1500</string>
+		<string>1500 AD</string>
 		<key>title</key>
 		<string>Ceremonial vessel</string>
 		<key>imageFileNameBase</key>
 		<string>B48</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1700</string>
+		<string>1700 AD</string>
 		<key>title</key>
 		<string>Ceremonial vessel</string>
 		<key>imageFileNameBase</key>
 		<string>B49</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1550</string>
+		<string>1550 AD</string>
 		<key>title</key>
 		<string>Qero</string>
 		<key>imageFileNameBase</key>
 		<string>B50</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 750</string>
+		<string>750 AD</string>
 		<key>title</key>
 		<string>Ear ornament</string>
 		<key>imageFileNameBase</key>
 		<string>B51</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1200</string>
+		<string>1200 AD</string>
 		<key>title</key>
 		<string>Human figure</string>
 		<key>imageFileNameBase</key>
 		<string>B52</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 200</string>
+		<string>200 AD</string>
 		<key>title</key>
 		<string>Trumpet</string>
 		<key>imageFileNameBase</key>
 		<string>B53</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1550</string>
+		<string>1550 AD</string>
 		<key>title</key>
 		<string>Qero with design of nobles under a rainbow</string>
 		<key>imageFileNameBase</key>
 		<string>B54</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Stirrup-spout bottle</string>
 		<key>imageFileNameBase</key>
 		<string>B55</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1550</string>
+		<string>1550 AD</string>
 		<key>title</key>
 		<string>Qero</string>
 		<key>imageFileNameBase</key>
 		<string>B56</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 100</string>
+		<string>100 AD</string>
 		<key>title</key>
 		<string>Ear ornament with sun image</string>
 		<key>imageFileNameBase</key>
 		<string>B57</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1200</string>
+		<string>1200 AD</string>
 		<key>title</key>
 		<string>Funerary mask</string>
 		<key>imageFileNameBase</key>
 		<string>B58</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1200</string>
+		<string>1200 AD</string>
 		<key>title</key>
 		<string>Vessel in human form</string>
 		<key>imageFileNameBase</key>
 		<string>B59</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Whistle in the form of a tillandsia plant</string>
 		<key>imageFileNameBase</key>
 		<string>B60</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Bolivia</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 600</string>
+		<string>600 AD</string>
 		<key>title</key>
 		<string>Pedestal-based incense burner depicting a jaguar</string>
 		<key>imageFileNameBase</key>
 		<string>B61</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Bolivia</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1000</string>
+		<string>1000 AD</string>
 		<key>title</key>
 		<string>Jar depicting a llama or an alpaca</string>
 		<key>imageFileNameBase</key>
 		<string>B62</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 200</string>
+		<string>200 AD</string>
 		<key>title</key>
 		<string>Stirrup-spout vessel with male figure</string>
 		<key>imageFileNameBase</key>
 		<string>B63</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1400</string>
+		<string>1400 AD</string>
 		<key>title</key>
 		<string>Vessel in the form of a tattooed man</string>
 		<key>imageFileNameBase</key>
 		<string>B64</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 200</string>
+		<string>200 AD</string>
 		<key>title</key>
 		<string>Pot drum</string>
 		<key>imageFileNameBase</key>
 		<string>B65</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1200</string>
+		<string>1200 AD</string>
 		<key>title</key>
 		<string>Human figure</string>
 		<key>imageFileNameBase</key>
 		<string>B66</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 600</string>
+		<string>600 AD</string>
 		<key>title</key>
 		<string>Hat</string>
 		<key>imageFileNameBase</key>
 		<string>B67</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Bolivia</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 750</string>
+		<string>750 AD</string>
 		<key>title</key>
 		<string>Incense burner</string>
 		<key>imageFileNameBase</key>
 		<string>B68</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 800</string>
+		<string>800 AD</string>
 		<key>title</key>
 		<string>Staff</string>
 		<key>imageFileNameBase</key>
 		<string>B69</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 100</string>
+		<string>100 AD</string>
 		<key>title</key>
 		<string>Male figure</string>
 		<key>imageFileNameBase</key>
 		<string>B71</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 1425</string>
+		<string>1425 AD</string>
 		<key>title</key>
 		<string>Vessel representing terraced agricultural fields</string>
 		<key>imageFileNameBase</key>
 		<string>B72</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Bolivia</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 600</string>
+		<string>600 AD</string>
 		<key>title</key>
 		<string>Incense burner in the form of a condor</string>
 		<key>imageFileNameBase</key>
 		<string>B73</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>600 BC</string>
 		<key>title</key>
@@ -723,38 +723,38 @@
 		<string>B74</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuado</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 400</string>
+		<string>400 AD</string>
 		<key>title</key>
 		<string>Whistle in the form of an elaborately dressed man</string>
 		<key>imageFileNameBase</key>
 		<string>B75</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 700</string>
+		<string>700 AD</string>
 		<key>title</key>
 		<string>Poncho</string>
 		<key>imageFileNameBase</key>
 		<string>B76</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Peru</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
-		<string>AD 900</string>
+		<string>900 AD</string>
 		<key>title</key>
 		<string>Vessel in the form of a man with a llama</string>
 		<key>imageFileNameBase</key>
 		<string>B77</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Ecuador</string>
+		<key>category</key>
+		<string>Archaeological artifacts</string>
 		<key>date</key>
 		<string>4000 BC</string>
 		<key>title</key>
@@ -763,8 +763,8 @@
 		<string>B78</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1848</string>
 		<key>title</key>
@@ -773,8 +773,8 @@
 		<string>C1</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1848</string>
 		<key>title</key>
@@ -783,8 +783,8 @@
 		<string>C2</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1848</string>
 		<key>title</key>
@@ -793,8 +793,8 @@
 		<string>C3</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Biological artifacts</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -803,8 +803,8 @@
 		<string>C4</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Biological artifacts</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -813,8 +813,8 @@
 		<string>C5</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Biological artifacts</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -823,8 +823,8 @@
 		<string>C6</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1800</string>
 		<key>title</key>
@@ -833,8 +833,8 @@
 		<string>C8</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical artifacts</string>
 		<key>date</key>
 		<string>1820</string>
 		<key>title</key>
@@ -844,8 +844,9 @@
 		<string>C9</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Medical and scientific artifacts
+Medical and scientific artifacts</string>
 		<key>date</key>
 		<string>1800</string>
 		<key>title</key>
@@ -855,8 +856,8 @@
 		<string>C11</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -865,8 +866,8 @@
 		<string>D1</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -875,8 +876,8 @@
 		<string>D2</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -885,8 +886,8 @@
 		<string>D3</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
@@ -895,8 +896,8 @@
 		<string>D4</string>
 	</dict>
 	<dict>
-		<key>location</key>
-		<string>Transylvania University’s Monroe Moosnick Medical and Science Museum</string>
+		<key>category</key>
+		<string>Visitors</string>
 		<key>date</key>
 		<string>2017</string>
 		<key>title</key>
