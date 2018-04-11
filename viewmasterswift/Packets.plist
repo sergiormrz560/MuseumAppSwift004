@@ -766,7 +766,7 @@
 		<key>category</key>
 		<string>Medical artifacts</string>
 		<key>date</key>
-		<string>1848</string>
+		<string>1848 AD</string>
 		<key>title</key>
 		<string>Fetal skeleton, human skull, and a 14-inch hairball</string>
 		<key>imageFileNameBase</key>
@@ -776,7 +776,7 @@
 		<key>category</key>
 		<string>Medical artifacts</string>
 		<key>date</key>
-		<string>1848</string>
+		<string>1848 AD</string>
 		<key>title</key>
 		<string>Fetal skeleton and human skull</string>
 		<key>imageFileNameBase</key>
@@ -786,7 +786,7 @@
 		<key>category</key>
 		<string>Medical artifacts</string>
 		<key>date</key>
-		<string>1848</string>
+		<string>1848 AD</string>
 		<key>title</key>
 		<string>Fetal skeletons</string>
 		<key>imageFileNameBase</key>
@@ -796,7 +796,7 @@
 		<key>category</key>
 		<string>Biological artifacts</string>
 		<key>date</key>
-		<string>2017</string>
+		<string>2017 AD</string>
 		<key>title</key>
 		<string>Baby figures</string>
 		<key>imageFileNameBase</key>
@@ -806,7 +806,7 @@
 		<key>category</key>
 		<string>Biological artifacts</string>
 		<key>date</key>
-		<string>2017</string>
+		<string>2017 AD</string>
 		<key>title</key>
 		<string>A man figure</string>
 		<key>imageFileNameBase</key>
@@ -816,7 +816,7 @@
 		<key>category</key>
 		<string>Biological artifacts</string>
 		<key>date</key>
-		<string>2017</string>
+		<string>2017 AD</string>
 		<key>title</key>
 		<string>A bird model</string>
 		<key>imageFileNameBase</key>
@@ -826,7 +826,7 @@
 		<key>category</key>
 		<string>Medical artifacts</string>
 		<key>date</key>
-		<string>1800</string>
+		<string>1800 AD</string>
 		<key>title</key>
 		<string>An anatomical model of the human skull</string>
 		<key>imageFileNameBase</key>
@@ -836,7 +836,7 @@
 		<key>category</key>
 		<string>Medical artifacts</string>
 		<key>date</key>
-		<string>1820</string>
+		<string>1820 AD</string>
 		<key>title</key>
 		<string>The wax anatomical model of a woman
 </string>
@@ -848,7 +848,7 @@
 		<string>Medical and scientific artifacts
 Medical and scientific artifacts</string>
 		<key>date</key>
-		<string>1800</string>
+		<string>1800 AD</string>
 		<key>title</key>
 		<string>Medical and scientific instruments
 </string>
@@ -859,7 +859,7 @@ Medical and scientific artifacts</string>
 		<key>category</key>
 		<string>Visitors</string>
 		<key>date</key>
-		<string>2017</string>
+		<string>2017 AD</string>
 		<key>title</key>
 		<string>A baby visited Transy museum</string>
 		<key>imageFileNameBase</key>
@@ -869,7 +869,7 @@ Medical and scientific artifacts</string>
 		<key>category</key>
 		<string>Visitors</string>
 		<key>date</key>
-		<string>2017</string>
+		<string>2017 AD</string>
 		<key>title</key>
 		<string>A woman visited Transy museum</string>
 		<key>imageFileNameBase</key>
@@ -879,7 +879,7 @@ Medical and scientific artifacts</string>
 		<key>category</key>
 		<string>Visitors</string>
 		<key>date</key>
-		<string>2017</string>
+		<string>2017 AD</string>
 		<key>title</key>
 		<string>Ozzy Osbourne and his son, Jack, visited Transy museum </string>
 		<key>imageFileNameBase</key>
@@ -889,7 +889,7 @@ Medical and scientific artifacts</string>
 		<key>category</key>
 		<string>Visitors</string>
 		<key>date</key>
-		<string>2017</string>
+		<string>2017 AD</string>
 		<key>title</key>
 		<string>A boy visited Transy museum </string>
 		<key>imageFileNameBase</key>
@@ -899,7 +899,7 @@ Medical and scientific artifacts</string>
 		<key>category</key>
 		<string>Visitors</string>
 		<key>date</key>
-		<string>2017</string>
+		<string>2017 AD</string>
 		<key>title</key>
 		<string>Signatures of Ozzy Osbourne and his son Jack</string>
 		<key>imageFileNameBase</key>
