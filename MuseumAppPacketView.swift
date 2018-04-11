@@ -2,8 +2,8 @@
 //  MuseumAppPacketView.swift (formerly MuseumAppPacketView.m)
 //  ViewMaster
 //
-//  Created by Robert England on 3/11/18.
-//  Copyright (c) 2018 Robert England. All rights reserved.
+//  Created by M Vu, B Crist, and S Ramirez Martin on 3/11/18.
+//  Copyright (c) 2018 M Vu, B Crist, and S Ramirez Martin. All rights reserved.
 //
 //  Abstract: Displays the packet information in a large format tile.
 ///

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ViewMasterSwift
 //
-//  Created by Robert England on 3/11/18.
-//  Copyright (c) 2018 Robert England. All rights reserved.
+//  Created by M Vu, B Crist, and S Ramirez Martin on 3/11/18.
+//  Copyright (c) 2018 M Vu, B Crist, and S Ramirez Martin. All rights reserved.
 //
 //    Shamelessly plaigerized, as much as possible, from an original Apple
 //       Objective-C example project called "The Elements" and its third party
