@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		116B212D207BF5CE00E2787F /* MTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116B212C207BF5CE00E2787F /* MTabBarController.swift */; };
+		3A93A367207E88B000FE6AAB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93A366207E88B000FE6AAB /* PageViewController.swift */; };
 		5948E5A81B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948E5A71B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift */; };
 		5948E5AA1B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948E5A91B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift */; };
 		595A58861B2091FC007957A4 /* TabTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 595A58851B2091FC007957A4 /* TabTitle.png */; };
@@ -323,6 +324,7 @@
 
 /* Begin PBXFileReference section */
 		116B212C207BF5CE00E2787F /* MTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MTabBarController.swift; path = viewmasterswift/MTabBarController.swift; sourceTree = "<group>"; };
+		3A93A366207E88B000FE6AAB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		5948E5A71B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumAppPacketsCollectionDataSource.swift; sourceTree = "<group>"; };
 		5948E5A91B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumAppPacketCollectionViewCell.swift; sourceTree = "<group>"; };
 		595A58851B2091FC007957A4 /* TabTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabTitle.png; sourceTree = "<group>"; };
@@ -716,6 +718,7 @@
 			children = (
 				59617B281B1E53540013149B /* MuseumAppPacketsTableViewController.swift */,
 				598F12C51B31F4FA00FD31FE /* MuseumAppPacketsCollectionViewController.swift */,
+				3A93A366207E88B000FE6AAB /* PageViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -1517,6 +1520,7 @@
 				595A5A341B20B7B3007957A4 /* MuseumAppPacketsSortedByCategoryDataSource.swift in Sources */,
 				598F12C81B31F54000FD31FE /* MuseumAppPacketsCollectionDataSourceProtocol.swift in Sources */,
 				597394F6205C2EB500C87E03 /* MuseumAppPacketFlippedView.swift in Sources */,
+				3A93A367207E88B000FE6AAB /* PageViewController.swift in Sources */,
 				598F12C61B31F4FA00FD31FE /* MuseumAppPacketsCollectionViewController.swift in Sources */,
 				59617B1C1B1E0CC70013149B /* MuseumAppPacketTileView.swift in Sources */,
 				59617B151B1CE8FE0013149B /* MuseumAppPacket.swift in Sources */,
