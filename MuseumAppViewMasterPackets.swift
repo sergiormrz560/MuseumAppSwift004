@@ -2,8 +2,8 @@
 //  MuseumAppViewMasterPackets.swift
 //  ViewMasterSwift
 //
-//  Created by Robert England on 3/12/18.
-//  Copyright (c) 2018 Robert England. All rights reserved.
+//  Created by M Vu, B Crist, and S Ramirez Martin on 3/12/18.
+//  Copyright (c) 2018 M Vu, B Crist, and S Ramirez Martin. All rights reserved.
 //
 //  Description: MODEL: Encapsulates collection of View-Master packets and return it in
 //      various presorted formats.

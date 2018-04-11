@@ -2,8 +2,8 @@
 //  MuseumAppPacketViewController.swift   (copied from .m version)
 //  ViewMaster
 //
-//  Created by Robert England on 3/11/18.
-//  Copyright (c) 2018 Robert England. All rights reserved.
+//  Created by M Vu, B Crist, and S Ramirez Martin on 3/11/18.
+//  Copyright (c) 2018 M Vu, B Crist, and S Ramirez Martin. All rights reserved.
 //
 //  Abstract: Controller that manages the full size tile view of the packet,
 //     including creating the reflection and flipping the tile.
