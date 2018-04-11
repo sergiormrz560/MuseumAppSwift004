@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="-2820" y="42"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="kuQ-4J-KOH">
             <objects>
-                <viewController id="d9f-1p-MRu" sceneMemberID="viewController">
+                <viewController id="d9f-1p-MRu" customClass="HomeViewController" customModule="ViewMasterSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="thf-v6-Jh8"/>
                         <viewControllerLayoutGuide type="bottom" id="fEO-pv-tXx"/>
@@ -473,6 +473,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JRd-wJ-MsW"/>
-        <segue reference="IgV-hT-vdh"/>
+        <segue reference="Cg5-4r-did"/>
     </inferredMetricsTieBreakers>
 </document>

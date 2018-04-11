@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		116B212D207BF5CE00E2787F /* MTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116B212C207BF5CE00E2787F /* MTabBarController.swift */; };
-		11E15165207E9CCE00062738 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E15164207E9CCE00062738 /* TrailerViewController.swift */; };
+		11E15165207E9CCE00062738 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E15164207E9CCE00062738 /* HomeViewController.swift */; };
 		11E15166207E9E6800062738 /* museumTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */; };
 		3A93A367207E88B000FE6AAB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93A366207E88B000FE6AAB /* PageViewController.swift */; };
 		3A93A368207E9E5E00FE6AAB /* museumTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */; };
@@ -327,7 +327,7 @@
 
 /* Begin PBXFileReference section */
 		116B212C207BF5CE00E2787F /* MTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MTabBarController.swift; path = viewmasterswift/MTabBarController.swift; sourceTree = "<group>"; };
-		11E15164207E9CCE00062738 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		11E15164207E9CCE00062738 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3A93A366207E88B000FE6AAB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		5948E5A71B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumAppPacketsCollectionDataSource.swift; sourceTree = "<group>"; };
 		5948E5A91B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumAppPacketCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -782,7 +782,7 @@
 				C34660D92075492A00DBA840 /* Packets.plist */,
 				59E4559F1B1B4E3B0061458D /* Info.plist */,
 				59E455A61B1B4E3B0061458D /* Main.storyboard */,
-				11E15164207E9CCE00062738 /* TrailerViewController.swift */,
+				11E15164207E9CCE00062738 /* HomeViewController.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1520,7 +1520,7 @@
 				597394F4205C247E00C87E03 /* MuseumAppPacketView.swift in Sources */,
 				59E455A11B1B4E3B0061458D /* AppDelegate.swift in Sources */,
 				116B212D207BF5CE00E2787F /* MTabBarController.swift in Sources */,
-				11E15165207E9CCE00062738 /* TrailerViewController.swift in Sources */,
+				11E15165207E9CCE00062738 /* HomeViewController.swift in Sources */,
 				5948E5A81B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift in Sources */,
 				59617B181B1CF8A60013149B /* MuseumAppViewMasterPackets.swift in Sources */,
 				595A5A2C1B20B51A007957A4 /* MuseumAppPacketsSortedByNumberDataSource.swift in Sources */,
