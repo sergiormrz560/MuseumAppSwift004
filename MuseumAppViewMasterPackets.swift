@@ -179,8 +179,28 @@ class MuseumAppViewMasterPackets {
     Swift’s Dictionary type does not have a defined ordering. To iterate over the keys or values of a dictionary in a specific order, use the global sorted function on its keys or values property.
 */
     static func presortPacketsByDate() -> [MuseumAppPacket] {
-        let sortedByDate = [MuseumAppPacket](titlesDictionary!.values).sorted { $0.date < $1.date }
+       // let sortedByDate = [MuseumAppPacket](titlesDictionary!.values).sorted { $0.date < $1.date }
+        let tempSortedByDate = [MuseumAppPacket](titlesDictionary!.values)
+        var sortedByDateBC: [MuseumAppPacket] = []
+        var sortedByDateAD: [MuseumAppPacket] = []
+        for i in tempSortedByDate {
+            if i.date.contains("BC") {
+                sortedByDateBC.append(i)
+            }
+            else if i.date.contains("AD") {
+                sortedByDateAD.append(i)
+            }
+        }
+        var sortedByDate = sortedByDateBC.sorted {Int($0.date.numbers)! > Int($1.date.numbers)!}
+        for i in sortedByDateAD.sorted(by: {Int($0.date.numbers)! < Int($1.date.numbers)!}) {
+            sortedByDate.append(i)
+        }
         return sortedByDate
+    }
+}
+extension String {
+    var numbers: String {
+        return String(self.filter { "0"..."9" ~= $0 })
     }
 }
 
