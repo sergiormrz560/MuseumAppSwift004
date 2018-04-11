@@ -80,7 +80,6 @@
 		C34118502078324A00913258 /* D4Front37.png in Resources */ = {isa = PBXBuildFile; fileRef = C341184F2078324900913258 /* D4Front37.png */; };
 		C34118522078326E00913258 /* D5Front37.png in Resources */ = {isa = PBXBuildFile; fileRef = C34118512078326E00913258 /* D5Front37.png */; };
 		C34660DA2075492A00DBA840 /* Packets.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34660D92075492A00DBA840 /* Packets.plist */; };
-		C3A0C579207D7F71008FD6AA /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A0C578207D7F71008FD6AA /* TrailerViewController.swift */; };
 		C3A2D5B820749C5A0090252A /* B43Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56A20749C3B0090252A /* B43Back525.png */; };
 		C3A2D5B920749C5A0090252A /* B69Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56B20749C3B0090252A /* B69Back525.png */; };
 		C3A2D5BA20749C5A0090252A /* A29Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56C20749C3C0090252A /* A29Back525.png */; };
@@ -405,7 +404,6 @@
 		C34118512078326E00913258 /* D5Front37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D5Front37.png; sourceTree = "<group>"; };
 		C34660D92075492A00DBA840 /* Packets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Packets.plist; sourceTree = "<group>"; };
 		C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = museumTrailer.m4v; sourceTree = "<group>"; };
-		C3A0C578207D7F71008FD6AA /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrailerViewController.swift; path = viewmasterswift/TrailerViewController.swift; sourceTree = "<group>"; };
 		C3A2D56A20749C3B0090252A /* B43Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B43Back525.png; sourceTree = "<group>"; };
 		C3A2D56B20749C3B0090252A /* B69Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B69Back525.png; sourceTree = "<group>"; };
 		C3A2D56C20749C3C0090252A /* A29Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A29Back525.png; sourceTree = "<group>"; };
@@ -668,7 +666,6 @@
 			isa = PBXGroup;
 			children = (
 				597394F7205C32BC00C87E03 /* MuseumAppPacketViewController.swift */,
-				C3A0C578207D7F71008FD6AA /* TrailerViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -1516,7 +1513,6 @@
 				116B212D207BF5CE00E2787F /* MTabBarController.swift in Sources */,
 				5948E5A81B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift in Sources */,
 				59617B181B1CF8A60013149B /* MuseumAppViewMasterPackets.swift in Sources */,
-				C3A0C579207D7F71008FD6AA /* TrailerViewController.swift in Sources */,
 				595A5A2C1B20B51A007957A4 /* MuseumAppPacketsSortedByNumberDataSource.swift in Sources */,
 				595A5A341B20B7B3007957A4 /* MuseumAppPacketsSortedByCategoryDataSource.swift in Sources */,
 				598F12C81B31F54000FD31FE /* MuseumAppPacketsCollectionDataSourceProtocol.swift in Sources */,

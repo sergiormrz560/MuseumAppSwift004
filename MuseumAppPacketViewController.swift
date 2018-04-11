@@ -20,7 +20,6 @@ class MuseumAppPacketViewController: UIViewController {
     private let kFlipTranslationDuration = 0.75
     private let reflectionFraction: CGFloat = 0.35
     private let reflectionOpacity: CGFloat = 0.5
-    
     private var frontViewIsVisible: Bool = true
     private var packetView: MuseumAppPacketView!
     private var reflectionView: UIImageView!
@@ -35,7 +34,7 @@ class MuseumAppPacketViewController: UIViewController {
         super.viewDidLoad()
 
         
-     //    createParticles()
+        // createParticles()
         
         
         self.view.backgroundColor = UIColor.black   // RE:: ?
