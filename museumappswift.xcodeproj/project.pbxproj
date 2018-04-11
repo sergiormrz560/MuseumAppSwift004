@@ -11,6 +11,7 @@
 		11E15165207E9CCE00062738 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E15164207E9CCE00062738 /* HomeViewController.swift */; };
 		11E15166207E9E6800062738 /* museumTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */; };
 		3A93A367207E88B000FE6AAB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93A366207E88B000FE6AAB /* PageViewController.swift */; };
+		3A93A368207E9E5E00FE6AAB /* museumTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */; };
 		5948E5A81B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948E5A71B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift */; };
 		5948E5AA1B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948E5A91B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift */; };
 		595A58861B2091FC007957A4 /* TabTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 595A58851B2091FC007957A4 /* TabTitle.png */; };
@@ -1210,7 +1211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E15166207E9E6800062738 /* museumTrailer.m4v in Resources */,
+				3A93A368207E9E5E00FE6AAB /* museumTrailer.m4v in Resources */,
 				C3BFC52320747BFC00AF70B5 /* B53Front525.png in Resources */,
 				C3BFC51820747BFC00AF70B5 /* A5Front525.png in Resources */,
 				C3A2D5EA20749C5A0090252A /* B64Back525.png in Resources */,

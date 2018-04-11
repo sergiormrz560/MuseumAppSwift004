@@ -16,6 +16,9 @@
         <array key="Copperplate.ttc">
             <string>Copperplate</string>
         </array>
+        <array key="GeorgiaBold.ttf">
+            <string>Georgia-Bold</string>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -383,15 +386,39 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mg-YV-3ta">
-                                <rect key="frame" x="254" y="874" width="261" height="65"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INFORMATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5V-6h-Bm4">
+                                <rect key="frame" x="146" y="140" width="477" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="65"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flourish_01_Flipped" translatesAutoresizingMaskIntoConstraints="NO" id="9xQ-3j-8w0">
+                                <rect key="frame" x="75" y="109" width="618" height="274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="qzy-L5-TE8">
+                                <rect key="frame" x="61" y="291" width="647" height="442"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Welcome to the Moosnick Virtual Museum! Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flourish_01" translatesAutoresizingMaskIntoConstraints="NO" id="7i8-z0-ysH">
+                                <rect key="frame" x="75" y="663" width="618" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaX-sq-MIR">
+                                <rect key="frame" x="254" y="854" width="261" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="36"/>
-                                <state key="normal" title="BACK">
+                                <state key="normal" title="BACK" backgroundImage="Button">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="d9f-1p-MRu" kind="show" id="x5G-dO-mPM"/>
+                                    <segue destination="d9f-1p-MRu" kind="show" id="zZU-4I-Zyt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -400,11 +427,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7D4-eP-g5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3208" y="1273"/>
+            <point key="canvasLocation" x="-3208.59375" y="1272.65625"/>
         </scene>
     </scenes>
     <resources>
         <image name="BG_01" width="450" height="600"/>
+        <image name="Button" width="168" height="55"/>
+        <image name="Flourish_01" width="750" height="375"/>
+        <image name="Flourish_01_Flipped" width="750" height="375"/>
         <image name="Intro1.png" width="566" height="849"/>
         <image name="Menu_01" width="450" height="600"/>
         <image name="intro.png" width="1024" height="721"/>
@@ -412,6 +442,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JRd-wJ-MsW"/>
-        <segue reference="Cg5-4r-did"/>
+        <segue reference="zZU-4I-Zyt"/>
     </inferredMetricsTieBreakers>
 </document>
