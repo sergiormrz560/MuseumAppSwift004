@@ -156,6 +156,7 @@
 		C3A2D60320749C5A0090252A /* B59Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D5B520749C590090252A /* B59Back525.png */; };
 		C3A2D60420749C5A0090252A /* B66Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D5B620749C5A0090252A /* B66Back525.png */; };
 		C3A2D60520749C5A0090252A /* B78Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D5B720749C5A0090252A /* B78Back525.png */; };
+		C3AD6A58207D1E7E00154FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3AD6A57207D1E7E00154FBD /* Assets.xcassets */; };
 		C3BFC51020747BFC00AF70B5 /* B61Front525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BFC47420747BBF00AF70B5 /* B61Front525.png */; };
 		C3BFC51120747BFC00AF70B5 /* A11Front525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BFC47520747BBF00AF70B5 /* A11Front525.png */; };
 		C3BFC51220747BFC00AF70B5 /* B72Front525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BFC47620747BC000AF70B5 /* B72Front525.png */; };
@@ -402,6 +403,7 @@
 		C341184F2078324900913258 /* D4Front37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D4Front37.png; sourceTree = "<group>"; };
 		C34118512078326E00913258 /* D5Front37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D5Front37.png; sourceTree = "<group>"; };
 		C34660D92075492A00DBA840 /* Packets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Packets.plist; sourceTree = "<group>"; };
+		C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = museumTrailer.m4v; sourceTree = "<group>"; };
 		C3A2D56A20749C3B0090252A /* B43Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B43Back525.png; sourceTree = "<group>"; };
 		C3A2D56B20749C3B0090252A /* B69Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B69Back525.png; sourceTree = "<group>"; };
 		C3A2D56C20749C3C0090252A /* A29Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A29Back525.png; sourceTree = "<group>"; };
@@ -478,6 +480,7 @@
 		C3A2D5B520749C590090252A /* B59Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B59Back525.png; sourceTree = "<group>"; };
 		C3A2D5B620749C5A0090252A /* B66Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B66Back525.png; sourceTree = "<group>"; };
 		C3A2D5B720749C5A0090252A /* B78Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B78Back525.png; sourceTree = "<group>"; };
+		C3AD6A57207D1E7E00154FBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		C3BFC47420747BBF00AF70B5 /* B61Front525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B61Front525.png; sourceTree = "<group>"; };
 		C3BFC47520747BBF00AF70B5 /* A11Front525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A11Front525.png; sourceTree = "<group>"; };
 		C3BFC47620747BC000AF70B5 /* B72Front525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B72Front525.png; sourceTree = "<group>"; };
@@ -733,8 +736,8 @@
 			isa = PBXGroup;
 			children = (
 				116B212C207BF5CE00E2787F /* MTabBarController.swift */,
-				C3411822207824BE00913258 /* Data */,
 				595A5A441B20DAC3007957A4 /* MuseumApp-bridging-header.h */,
+				C3411822207824BE00913258 /* Data */,
 				595A5A351B20D3AB007957A4 /* Single Packet View */,
 				59617B271B1E53130013149B /* View Controllers */,
 				59617B201B1E19560013149B /* Data Sources */,
@@ -758,6 +761,7 @@
 		59E4559D1B1B4E3B0061458D /* viewmasterswift */ = {
 			isa = PBXGroup;
 			children = (
+				C3AD6A57207D1E7E00154FBD /* Assets.xcassets */,
 				59E455A01B1B4E3B0061458D /* AppDelegate.swift */,
 				59E455AB1B1B4E3B0061458D /* LaunchScreen.xib */,
 				59E4559E1B1B4E3B0061458D /* Supporting Files */,
@@ -795,8 +799,8 @@
 		C3411822207824BE00913258 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				C3411823207824C800913258 /* Videos */,
 				59617B2A1B1F42F60013149B /* Pictures */,
+				C3411823207824C800913258 /* Videos */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -804,6 +808,7 @@
 		C3411823207824C800913258 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */,
 				C3411826207824D900913258 /* intro_video.MP4 */,
 				C3411824207824D700913258 /* video1.m4v */,
 				C3411825207824D900913258 /* video2.m4v */,
@@ -1386,6 +1391,7 @@
 				C3BFC55120747BFC00AF70B5 /* A27Front525.png in Resources */,
 				C3BFC55820747BFC00AF70B5 /* A29Front525.png in Resources */,
 				595A5A321B20B583007957A4 /* TabDate.png in Resources */,
+				C3AD6A58207D1E7E00154FBD /* Assets.xcassets in Resources */,
 				C3A2D5C720749C5A0090252A /* A1Back525.png in Resources */,
 				C3A2D5FC20749C5A0090252A /* B55Back525.png in Resources */,
 				C3BFC58E20747BFC00AF70B5 /* B63Front37.png in Resources */,
