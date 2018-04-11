@@ -219,7 +219,7 @@
         <!--Packets Table View Controller-->
         <scene sceneID="izz-E2-itn">
             <objects>
-                <tableViewController id="QM7-Xr-R48" userLabel="Packets Table View Controller" customClass="MuseumAppPacketsTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="goHome" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QM7-Xr-R48" userLabel="Packets Table View Controller" customClass="MuseumAppPacketsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="311" sectionHeaderHeight="22" sectionFooterHeight="22" id="grN-1f-fKS">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -367,10 +367,10 @@
             </objects>
             <point key="canvasLocation" x="-772" y="1561"/>
         </scene>
-        <!--View Controller-->
+        <!--Trailer View Controller-->
         <scene sceneID="LAk-7M-ahJ">
             <objects>
-                <viewController id="oS4-JZ-AVB" sceneMemberID="viewController">
+                <viewController id="oS4-JZ-AVB" customClass="TrailerViewController" customModule="ViewMasterSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cBA-DG-8fN"/>
                         <viewControllerLayoutGuide type="bottom" id="H6x-eW-YTv"/>
