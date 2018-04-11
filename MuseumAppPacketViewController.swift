@@ -11,11 +11,9 @@
 
 
 import UIKit
-import AVFoundation
 
 @objc(MuseumAppPacketViewController)
 class MuseumAppPacketViewController: UIViewController {
-    var musicEffect: AVAudioPlayer = AVAudioPlayer()
     
     var myPacket: MuseumAppPacket?
     
@@ -29,7 +27,6 @@ class MuseumAppPacketViewController: UIViewController {
     private var packetFlippedView: MuseumAppPacketFlippedView!
     private var flipIndicatorButton: UIButton!
     
-   // private var ebayButton: UIButton!
     
     // MARK:  -
     
@@ -38,21 +35,7 @@ class MuseumAppPacketViewController: UIViewController {
         super.viewDidLoad()
 
         
-        // createParticles()
-        
-        // Youtube: "Sound Buttons Swift"
-        // https://www.youtube.com/watch?v=1OTovTuyDI8
-        let musicFile = Bundle.main.path(forResource: "flipSound", ofType: "mp3")
-        do {
-            try musicEffect = AVAudioPlayer(contentsOf: URL (fileURLWithPath: musicFile!))
-        }
-        catch {
-            print(error)
-        }
-        
-        
-        
-        
+     //    createParticles()
         
         
         self.view.backgroundColor = UIColor.black   // RE:: ?
@@ -141,8 +124,6 @@ class MuseumAppPacketViewController: UIViewController {
             let reflectionHeight = Int(self.packetFlippedView.bounds.height * reflectionFraction)
             let reflectedImage = self.packetFlippedView.reflectedImageRepresentationWithHeight(reflectionHeight)
             reflectionView.image = reflectedImage
-            
-            musicEffect.play()
         }
         else {  //// (flip back to front)
             UIView.setAnimationTransition(.flipFromLeft, for: self.view, cache: true)
@@ -153,9 +134,6 @@ class MuseumAppPacketViewController: UIViewController {
             let reflectionHeight = Int(self.packetView.bounds.height * reflectionFraction)
             let reflectedImage = self.packetView.reflectedImageRepresentationWithHeight(reflectionHeight)
             reflectionView.image = reflectedImage
-            
-            
-            musicEffect.play()
         }
         UIView.commitAnimations()   //// end the animations
         

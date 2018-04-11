@@ -79,9 +79,8 @@
 		C341184E2078322C00913258 /* D3Front37.png in Resources */ = {isa = PBXBuildFile; fileRef = C341184D2078322B00913258 /* D3Front37.png */; };
 		C34118502078324A00913258 /* D4Front37.png in Resources */ = {isa = PBXBuildFile; fileRef = C341184F2078324900913258 /* D4Front37.png */; };
 		C34118522078326E00913258 /* D5Front37.png in Resources */ = {isa = PBXBuildFile; fileRef = C34118512078326E00913258 /* D5Front37.png */; };
-		C344009A207D6D15000F6C3C /* clickSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3440098207D6D14000F6C3C /* clickSound.mp3 */; };
-		C344009B207D6D15000F6C3C /* flipSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3440099207D6D15000F6C3C /* flipSound.mp3 */; };
 		C34660DA2075492A00DBA840 /* Packets.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34660D92075492A00DBA840 /* Packets.plist */; };
+		C3A0C579207D7F71008FD6AA /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A0C578207D7F71008FD6AA /* TrailerViewController.swift */; };
 		C3A2D5B820749C5A0090252A /* B43Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56A20749C3B0090252A /* B43Back525.png */; };
 		C3A2D5B920749C5A0090252A /* B69Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56B20749C3B0090252A /* B69Back525.png */; };
 		C3A2D5BA20749C5A0090252A /* A29Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56C20749C3C0090252A /* A29Back525.png */; };
@@ -404,10 +403,9 @@
 		C341184D2078322B00913258 /* D3Front37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D3Front37.png; sourceTree = "<group>"; };
 		C341184F2078324900913258 /* D4Front37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D4Front37.png; sourceTree = "<group>"; };
 		C34118512078326E00913258 /* D5Front37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D5Front37.png; sourceTree = "<group>"; };
-		C3440097207D6D08000F6C3C /* museumTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = museumTrailer.m4v; sourceTree = "<group>"; };
-		C3440098207D6D14000F6C3C /* clickSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickSound.mp3; sourceTree = "<group>"; };
-		C3440099207D6D15000F6C3C /* flipSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flipSound.mp3; sourceTree = "<group>"; };
 		C34660D92075492A00DBA840 /* Packets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Packets.plist; sourceTree = "<group>"; };
+		C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = museumTrailer.m4v; sourceTree = "<group>"; };
+		C3A0C578207D7F71008FD6AA /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrailerViewController.swift; path = viewmasterswift/TrailerViewController.swift; sourceTree = "<group>"; };
 		C3A2D56A20749C3B0090252A /* B43Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B43Back525.png; sourceTree = "<group>"; };
 		C3A2D56B20749C3B0090252A /* B69Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B69Back525.png; sourceTree = "<group>"; };
 		C3A2D56C20749C3C0090252A /* A29Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A29Back525.png; sourceTree = "<group>"; };
@@ -670,6 +668,7 @@
 			isa = PBXGroup;
 			children = (
 				597394F7205C32BC00C87E03 /* MuseumAppPacketViewController.swift */,
+				C3A0C578207D7F71008FD6AA /* TrailerViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -803,7 +802,6 @@
 		C3411822207824BE00913258 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				C3AD6A59207D261000154FBD /* Music */,
 				59617B2A1B1F42F60013149B /* Pictures */,
 				C3411823207824C800913258 /* Videos */,
 			);
@@ -813,7 +811,7 @@
 		C3411823207824C800913258 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
-				C3440097207D6D08000F6C3C /* museumTrailer.m4v */,
+				C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */,
 				C3411826207824D900913258 /* intro_video.MP4 */,
 				C3411824207824D700913258 /* video1.m4v */,
 				C3411825207824D900913258 /* video2.m4v */,
@@ -1128,15 +1126,6 @@
 			name = "Intro Pictures";
 			sourceTree = "<group>";
 		};
-		C3AD6A59207D261000154FBD /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				C3440098207D6D14000F6C3C /* clickSound.mp3 */,
-				C3440099207D6D15000F6C3C /* flipSound.mp3 */,
-			);
-			path = Music;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1380,7 +1369,6 @@
 				C3BFC54B20747BFC00AF70B5 /* A37Front525.png in Resources */,
 				C341181D2078246200913258 /* C3Back525.png in Resources */,
 				C3BFC53620747BFC00AF70B5 /* A27Front37.png in Resources */,
-				C344009A207D6D15000F6C3C /* clickSound.mp3 in Resources */,
 				C3A2D5C020749C5A0090252A /* A25Back525.png in Resources */,
 				C3A2D5FF20749C5A0090252A /* B71Back525.png in Resources */,
 				C3BFC51020747BFC00AF70B5 /* B61Front525.png in Resources */,
@@ -1425,7 +1413,6 @@
 				C3BFC54420747BFC00AF70B5 /* A37Front37.png in Resources */,
 				C3BFC5A220747BFC00AF70B5 /* A25Front525.png in Resources */,
 				C3BFC51620747BFC00AF70B5 /* A15Front37.png in Resources */,
-				C344009B207D6D15000F6C3C /* flipSound.mp3 in Resources */,
 				C34118102078246200913258 /* C6Front525.png in Resources */,
 				C3BFC57720747BFC00AF70B5 /* A4Front525.png in Resources */,
 				C3BFC59120747BFC00AF70B5 /* A35Front37.png in Resources */,
@@ -1529,6 +1516,7 @@
 				116B212D207BF5CE00E2787F /* MTabBarController.swift in Sources */,
 				5948E5A81B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift in Sources */,
 				59617B181B1CF8A60013149B /* MuseumAppViewMasterPackets.swift in Sources */,
+				C3A0C579207D7F71008FD6AA /* TrailerViewController.swift in Sources */,
 				595A5A2C1B20B51A007957A4 /* MuseumAppPacketsSortedByNumberDataSource.swift in Sources */,
 				595A5A341B20B7B3007957A4 /* MuseumAppPacketsSortedByCategoryDataSource.swift in Sources */,
 				598F12C81B31F54000FD31FE /* MuseumAppPacketsCollectionDataSourceProtocol.swift in Sources */,
