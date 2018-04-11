@@ -10,11 +10,12 @@ import UIKit
 import AVKit
 import AVFoundation
 
-class TrailerViewController: UIViewController {
+class HomeViewController: UIViewController {
 
+    static var num = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-       // playVideo()
 
         // Do any additional setup after loading the view.
     }
@@ -25,10 +26,11 @@ class TrailerViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        playVideo()
+     //   playVideo()
     }
     
     private func playVideo() {
+        if HomeViewController.num == 0 {
         guard let path = Bundle.main.path(forResource: "museumTrailer", ofType:"m4v") else {
             debugPrint("museumTrailer.m4v not found")
             return
@@ -38,6 +40,8 @@ class TrailerViewController: UIViewController {
         playerController.player = player
         present(playerController, animated: true) {
             player.play()
+        }
+            HomeViewController.num = HomeViewController.num+1
         }
     }
     
