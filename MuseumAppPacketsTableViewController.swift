@@ -80,5 +80,12 @@ class MuseumAppPacketsTableViewController : UITableViewController {
             }
         }
     }
+    
+    @IBAction func goHome(_ sender: UIButton) {
+        print("Hello World!\n")
+        //performSegue(withIdentifier: "goBack", sender: nil)
+        self.dismiss(animated: true, completion: nil)
+        performSegue(withIdentifier: "goHome", sender: nil)
+    }
 }
 
