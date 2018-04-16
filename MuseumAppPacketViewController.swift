@@ -34,7 +34,7 @@ class MuseumAppPacketViewController: UIViewController {
         super.viewDidLoad()
 
         
-        // createParticles()
+        createParticles()
         
         
         self.view.backgroundColor = UIColor.black   // RE:: ?
