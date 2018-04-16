@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>category</key>
+		<string>Medical and scientific artifacts
+Medical and scientific artifacts</string>
+		<key>date</key>
+		<string>1800 AD</string>
+		<key>title</key>
+		<string>Medical and scientific instruments
+</string>
+		<key>imageFileNameBase</key>
+		<string>C11</string>
+	</dict>
+</array>
+</plist>

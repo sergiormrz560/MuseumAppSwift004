@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>category</key>
+		<string>Visitors</string>
+		<key>date</key>
+		<string>2017 AD</string>
+		<key>title</key>
+		<string>A baby visited Transy museum</string>
+		<key>imageFileNameBase</key>
+		<string>D1</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Visitors</string>
+		<key>date</key>
+		<string>2017 AD</string>
+		<key>title</key>
+		<string>A woman visited Transy museum</string>
+		<key>imageFileNameBase</key>
+		<string>D2</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Visitors</string>
+		<key>date</key>
+		<string>2017 AD</string>
+		<key>title</key>
+		<string>Ozzy Osbourne and his son, Jack, visited Transy museum </string>
+		<key>imageFileNameBase</key>
+		<string>D3</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Visitors</string>
+		<key>date</key>
+		<string>2017 AD</string>
+		<key>title</key>
+		<string>A boy visited Transy museum </string>
+		<key>imageFileNameBase</key>
+		<string>D4</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Visitors</string>
+		<key>date</key>
+		<string>2017 AD</string>
+		<key>title</key>
+		<string>Signatures of Ozzy Osbourne and his son Jack</string>
+		<key>imageFileNameBase</key>
+		<string>D5</string>
+	</dict>
+</array>
+</plist>

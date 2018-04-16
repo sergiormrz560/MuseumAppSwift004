@@ -83,6 +83,11 @@
 		C34118502078324A00913258 /* D4Front37.png in Resources */ = {isa = PBXBuildFile; fileRef = C341184F2078324900913258 /* D4Front37.png */; };
 		C34118522078326E00913258 /* D5Front37.png in Resources */ = {isa = PBXBuildFile; fileRef = C34118512078326E00913258 /* D5Front37.png */; };
 		C34660DA2075492A00DBA840 /* Packets.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34660D92075492A00DBA840 /* Packets.plist */; };
+		C387FA002085055A00921E6B /* archaeologicalArtifacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = C387F9FC2085055A00921E6B /* archaeologicalArtifacts.plist */; };
+		C387FA012085055A00921E6B /* biologicalArtifacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = C387F9FD2085055A00921E6B /* biologicalArtifacts.plist */; };
+		C387FA022085055A00921E6B /* scientificArtifacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = C387F9FE2085055A00921E6B /* scientificArtifacts.plist */; };
+		C387FA032085055A00921E6B /* medicalArtifacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = C387F9FF2085055A00921E6B /* medicalArtifacts.plist */; };
+		C387FA052085056000921E6B /* visitors.plist in Resources */ = {isa = PBXBuildFile; fileRef = C387FA042085056000921E6B /* visitors.plist */; };
 		C3A2D5B820749C5A0090252A /* B43Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56A20749C3B0090252A /* B43Back525.png */; };
 		C3A2D5B920749C5A0090252A /* B69Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56B20749C3B0090252A /* B69Back525.png */; };
 		C3A2D5BA20749C5A0090252A /* A29Back525.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A2D56C20749C3C0090252A /* A29Back525.png */; };
@@ -408,6 +413,11 @@
 		C341184F2078324900913258 /* D4Front37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D4Front37.png; sourceTree = "<group>"; };
 		C34118512078326E00913258 /* D5Front37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D5Front37.png; sourceTree = "<group>"; };
 		C34660D92075492A00DBA840 /* Packets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Packets.plist; sourceTree = "<group>"; };
+		C387F9FC2085055A00921E6B /* archaeologicalArtifacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = archaeologicalArtifacts.plist; sourceTree = "<group>"; };
+		C387F9FD2085055A00921E6B /* biologicalArtifacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = biologicalArtifacts.plist; sourceTree = "<group>"; };
+		C387F9FE2085055A00921E6B /* scientificArtifacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scientificArtifacts.plist; sourceTree = "<group>"; };
+		C387F9FF2085055A00921E6B /* medicalArtifacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = medicalArtifacts.plist; sourceTree = "<group>"; };
+		C387FA042085056000921E6B /* visitors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = visitors.plist; sourceTree = "<group>"; };
 		C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = museumTrailer.m4v; sourceTree = "<group>"; };
 		C3A2D56A20749C3B0090252A /* B43Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B43Back525.png; sourceTree = "<group>"; };
 		C3A2D56B20749C3B0090252A /* B69Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B69Back525.png; sourceTree = "<group>"; };
@@ -779,6 +789,11 @@
 		59E4559E1B1B4E3B0061458D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C387FA042085056000921E6B /* visitors.plist */,
+				C387F9FC2085055A00921E6B /* archaeologicalArtifacts.plist */,
+				C387F9FD2085055A00921E6B /* biologicalArtifacts.plist */,
+				C387F9FF2085055A00921E6B /* medicalArtifacts.plist */,
+				C387F9FE2085055A00921E6B /* scientificArtifacts.plist */,
 				C34660D92075492A00DBA840 /* Packets.plist */,
 				59E4559F1B1B4E3B0061458D /* Info.plist */,
 				59E455A61B1B4E3B0061458D /* Main.storyboard */,
@@ -1274,6 +1289,7 @@
 				C3BFC53820747BFC00AF70B5 /* A35Front525.png in Resources */,
 				C341180C2078246200913258 /* C1Back525.png in Resources */,
 				C3BFC5AB20747BFC00AF70B5 /* B56Front525.png in Resources */,
+				C387FA032085055A00921E6B /* medicalArtifacts.plist in Resources */,
 				C3BFC54120747BFC00AF70B5 /* B49Front525.png in Resources */,
 				C3BFC5A320747BFC00AF70B5 /* A1Front525.png in Resources */,
 				C3BFC51420747BFC00AF70B5 /* B54Front37.png in Resources */,
@@ -1305,6 +1321,7 @@
 				C3BFC56F20747BFC00AF70B5 /* A2Front37.png in Resources */,
 				C3BFC55220747BFC00AF70B5 /* B57Front525.png in Resources */,
 				C3BFC56720747BFC00AF70B5 /* B69Front37.png in Resources */,
+				C387FA052085056000921E6B /* visitors.plist in Resources */,
 				C3BFC58D20747BFC00AF70B5 /* A36Front37.png in Resources */,
 				C34118162078246200913258 /* C8Front525.png in Resources */,
 				59E455AD1B1B4E3B0061458D /* LaunchScreen.xib in Resources */,
@@ -1355,6 +1372,8 @@
 				C3BFC52220747BFC00AF70B5 /* B60Front37.png in Resources */,
 				C3BFC53E20747BFC00AF70B5 /* A8Front37.png in Resources */,
 				C341180D2078246200913258 /* C2Front525.png in Resources */,
+				C387FA012085055A00921E6B /* biologicalArtifacts.plist in Resources */,
+				C387FA002085055A00921E6B /* archaeologicalArtifacts.plist in Resources */,
 				C3A2D5BB20749C5A0090252A /* B72Back525.png in Resources */,
 				C34118132078246200913258 /* C8Back525.png in Resources */,
 				C3BFC51220747BFC00AF70B5 /* B72Front525.png in Resources */,
@@ -1439,6 +1458,7 @@
 				C341183A207830A000913258 /* C2Front37.png in Resources */,
 				C3BFC57020747BFC00AF70B5 /* B69Front525.png in Resources */,
 				C3BFC55F20747BFC00AF70B5 /* A33Front525.png in Resources */,
+				C387FA022085055A00921E6B /* scientificArtifacts.plist in Resources */,
 				C3BFC59C20747BFC00AF70B5 /* B55Front37.png in Resources */,
 				C34118402078313700913258 /* C5Front37.png in Resources */,
 				C341183C207830E900913258 /* C3Front37.png in Resources */,
