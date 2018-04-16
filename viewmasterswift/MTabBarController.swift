@@ -12,7 +12,7 @@ class MTabBarController: UITabBarController {
       //      func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
                 // Override point for customization after application launch.
                 // print("Hello?")
-                _ = MuseumAppViewMasterPackets.sharedViewMasterPackets()
+             //   _ = MuseumAppViewMasterPackets.sharedViewMasterPackets()
                 /**/
                 /*        if packets != nil {
                  print("Success in AppDelegate --- found the plist")

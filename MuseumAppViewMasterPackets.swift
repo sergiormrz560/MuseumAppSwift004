@@ -15,6 +15,7 @@ class MuseumAppViewMasterPackets {
     static var packetCategory: [String]?
     static var packetTitleIndexArray: [String]?
     
+    
     // Dictionaries that will contain arrays of packets indexed by...
     // Title:
     static var titlesDictionary: [String : MuseumAppPacket]?
@@ -50,19 +51,33 @@ class MuseumAppViewMasterPackets {
     }
     
 // Initialize the MODEL
-    static func sharedViewMasterPackets() -> MuseumAppViewMasterPackets? {
+     static func sharedViewMasterPackets() -> MuseumAppViewMasterPackets? {
         // Make and initialize this only one time
-        if MuseumAppViewMasterPackets.privateSharedViewMasterPackets != nil {
-            return privateSharedViewMasterPackets
+        //if MuseumAppViewMasterPackets.privateSharedViewMasterPackets != nil {
+        if callAgain != true {
+            return MuseumAppViewMasterPackets.privateSharedViewMasterPackets
         }
+        
         
         // If we're still here, we need to set up everything in the Museum data model
         MuseumAppViewMasterPackets.privateSharedViewMasterPackets = MuseumAppViewMasterPackets()
         
+        switch collection {
+        case "moosnick":
+            pListName = "visitors"
+            break
+        case "other":
+            pListName = "archaeologicalArtifacts"
+            break
+        default:
+            pListName = "Packets"
+            break
+        }
+        
         // Read the plist array that contains all of the packet data:
         //    Array elements are individual dictionaries, 1 per packet
         // Ref: http://rebeloper.com/read-write-plist-file-swift/
-        if let bundlePath = Bundle.main.path(forResource: "Packets", ofType: "plist") {
+        if let bundlePath = Bundle.main.path(forResource: pListName, ofType: "plist") {
             let rawPacketsArray = NSMutableArray(contentsOfFile: bundlePath)!
 
             // Iterate over all values read from the file, placing them in the proper data structures
@@ -72,44 +87,45 @@ class MuseumAppViewMasterPackets {
                 let aPacket = MuseumAppPacket(aDictionary: eachPacketDictionary as! NSDictionary)
                 
                 // Store the packet in the packets dictionary with title as key
-                titlesDictionary![aPacket.title] = aPacket
+                MuseumAppViewMasterPackets.titlesDictionary![aPacket.title] = aPacket
                 
                 // Make sure that the category for this packet exists
-                registerCategory(category: aPacket.category)
+                MuseumAppViewMasterPackets.registerCategory(category: aPacket.category)
                 
                 // Add the packet to the appropriate array in the category dictionary
-                categoryDictionary![aPacket.category]!.append(aPacket)
+                MuseumAppViewMasterPackets.categoryDictionary![aPacket.category]!.append(aPacket)
                 
                 //// (borrowed from PeriodicElements.swift)
                 let titleFirstLetter = aPacket.title.substring(to: aPacket.title.index(after: aPacket.title.startIndex))
                 
                 // If an array already exists for the title's first letter, add this
                 //    packet to it; otherwise, create the array first
-                if titlesIndexDictionary![titleFirstLetter] == nil {
-                    titlesIndexDictionary![titleFirstLetter] = [MuseumAppPacket]()
+                if MuseumAppViewMasterPackets.titlesIndexDictionary![titleFirstLetter] == nil {
+                    MuseumAppViewMasterPackets.titlesIndexDictionary![titleFirstLetter] = [MuseumAppPacket]()
                 }
-                titlesIndexDictionary![titleFirstLetter]!.append(aPacket)
+                MuseumAppViewMasterPackets.titlesIndexDictionary![titleFirstLetter]!.append(aPacket)
                 
             }
             
             // Sort the category names
-            packetCategory = packetCategory!.sorted { $0 < $1 }
+            MuseumAppViewMasterPackets.packetCategory = MuseumAppViewMasterPackets.packetCategory!.sorted { $0 < $1 }
             
             // Presort packets within each category
-            presortPacketsByCategory()
+            MuseumAppViewMasterPackets.presortPacketsByCategory()
             
             // Presort packets' titles' first letters
-            presortPacketTitleInitialLetterIndexes()
+            MuseumAppViewMasterPackets.presortPacketTitleInitialLetterIndexes()
             
             // Presort packets by date
-            packetsSortedByDate = presortPacketsByDate()
+            MuseumAppViewMasterPackets.packetsSortedByDate = MuseumAppViewMasterPackets.presortPacketsByDate()
             
         }
         else {
  //           println("Yikes! Packets.plist file not found!")
         }
         
-        return privateSharedViewMasterPackets
+        callAgain = false
+        return MuseumAppViewMasterPackets.privateSharedViewMasterPackets
     }
     
 // See if this category exists; If not, then create it

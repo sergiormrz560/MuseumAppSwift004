@@ -12,7 +12,11 @@ import AVFoundation
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var hider: UILabel!
+    
     static var num = 0
+    
+    //static var played = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,16 +25,27 @@ class HomeViewController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        super.didReceiveMemoryWarning()        // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if HomeViewController.num != 0 {
+            self.hider.isHidden = true
+        }
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-     //   playVideo()
+        if HomeViewController.num == 0 {
+            playVideo()
+            HomeViewController.num = 1
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                self.hider.isHidden = true
+            }
+        }
     }
     
     private func playVideo() {
-        if HomeViewController.num == 0 {
         guard let path = Bundle.main.path(forResource: "museumTrailer", ofType:"m4v") else {
             debugPrint("museumTrailer.m4v not found")
             return
@@ -38,10 +53,8 @@ class HomeViewController: UIViewController {
         let player = AVPlayer(url: URL(fileURLWithPath: path))
         let playerController = AVPlayerViewController()
         playerController.player = player
-        present(playerController, animated: true) {
+        present(playerController, animated: false) {
             player.play()
-        }
-            HomeViewController.num = HomeViewController.num+1
         }
     }
     

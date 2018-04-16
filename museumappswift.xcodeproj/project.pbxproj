@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11013838208509FF00D0AC8E /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11013837208509FF00D0AC8E /* CollectionsViewController.swift */; };
+		1101383A20850AF600D0AC8E /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101383920850AF600D0AC8E /* GlobalVariables.swift */; };
 		116B212D207BF5CE00E2787F /* MTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116B212C207BF5CE00E2787F /* MTabBarController.swift */; };
 		11E15165207E9CCE00062738 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E15164207E9CCE00062738 /* HomeViewController.swift */; };
 		3A93A367207E88B000FE6AAB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93A366207E88B000FE6AAB /* PageViewController.swift */; };
@@ -330,6 +332,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11013837208509FF00D0AC8E /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionsViewController.swift; path = viewmasterswift/CollectionsViewController.swift; sourceTree = "<group>"; };
+		1101383920850AF600D0AC8E /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GlobalVariables.swift; path = viewmasterswift/GlobalVariables.swift; sourceTree = "<group>"; };
 		116B212C207BF5CE00E2787F /* MTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MTabBarController.swift; path = viewmasterswift/MTabBarController.swift; sourceTree = "<group>"; };
 		11E15164207E9CCE00062738 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = viewmasterswift/HomeViewController.swift; sourceTree = "<group>"; };
 		3A93A366207E88B000FE6AAB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
@@ -751,8 +755,10 @@
 		59E455921B1B4E3B0061458D = {
 			isa = PBXGroup;
 			children = (
+				1101383920850AF600D0AC8E /* GlobalVariables.swift */,
 				116B212C207BF5CE00E2787F /* MTabBarController.swift */,
 				11E15164207E9CCE00062738 /* HomeViewController.swift */,
+				11013837208509FF00D0AC8E /* CollectionsViewController.swift */,
 				595A5A441B20DAC3007957A4 /* MuseumApp-bridging-header.h */,
 				C3411822207824BE00913258 /* Data */,
 				595A5A351B20D3AB007957A4 /* Single Packet View */,
@@ -1531,11 +1537,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11013838208509FF00D0AC8E /* CollectionsViewController.swift in Sources */,
 				59617B241B1E199C0013149B /* MuseumAppPacketsTableDataSourceProtocol.swift in Sources */,
 				59617B1F1B1E10860013149B /* MuseumAppPacketTableViewCell.swift in Sources */,
 				5948E5AA1B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift in Sources */,
 				597394F8205C32BC00C87E03 /* MuseumAppPacketViewController.swift in Sources */,
 				59617B261B1E1DA40013149B /* MuseumAppPacketsSortedByTitleDataSource.swift in Sources */,
+				1101383A20850AF600D0AC8E /* GlobalVariables.swift in Sources */,
 				597394F4205C247E00C87E03 /* MuseumAppPacketView.swift in Sources */,
 				59E455A11B1B4E3B0061458D /* AppDelegate.swift in Sources */,
 				116B212D207BF5CE00E2787F /* MTabBarController.swift in Sources */,

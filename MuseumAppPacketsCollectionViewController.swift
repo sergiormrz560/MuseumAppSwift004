@@ -84,6 +84,11 @@ class MuseumAppPacketsCollectionViewController : UICollectionViewController {
             }
         }
     }
+    
+    @IBAction func goHome(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+        performSegue(withIdentifier: "goHome2", sender: nil)
+    }
 }
 
 
