@@ -644,7 +644,6 @@ The museum is open by appointment.  Contact Curator and Physics Professor Jamie 
         <image name="intro2.png" width="800" height="305"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PJB-YL-BrB"/>
         <segue reference="JRd-wJ-MsW"/>
         <segue reference="pOO-Kb-5bF"/>
         <segue reference="hDv-yr-Wbc"/>
