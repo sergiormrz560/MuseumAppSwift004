@@ -146,7 +146,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6gb-BD-iwt" kind="show" id="f45-bf-6G0"/>
+                                    <segue destination="SNf-xM-MgN" kind="show" id="OYl-k3-g9M"/>
                                 </connections>
                             </button>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0xt-fM-3LK">
@@ -182,10 +182,10 @@
             </objects>
             <point key="canvasLocation" x="-3063.28125" y="559.5703125"/>
         </scene>
-        <!--View Controller-->
+        <!--Videos View Controller-->
         <scene sceneID="dO5-ay-odr">
             <objects>
-                <viewController id="SNf-xM-MgN" sceneMemberID="viewController">
+                <viewController id="SNf-xM-MgN" customClass="VideosViewController" customModule="ViewMasterSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PmK-rc-etH"/>
                         <viewControllerLayoutGuide type="bottom" id="5a0-dg-zSD"/>
@@ -201,17 +201,38 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj1-gH-KPD">
                                 <rect key="frame" x="181" y="109" width="406" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Video_01_Thumbnail"/>
+                                <accessibility key="accessibilityConfiguration" identifier="intro_video"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="87"/>
+                                <state key="normal" title="▷" backgroundImage="Video_01_Thumbnail">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playVideo:" destination="SNf-xM-MgN" eventType="touchUpInside" id="Pk2-xc-Ggp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bo7-f9-AM2">
                                 <rect key="frame" x="181" y="366" width="406" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Video_02_Thumbnail"/>
+                                <accessibility key="accessibilityConfiguration" identifier="video1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="87"/>
+                                <state key="normal" title="▷" backgroundImage="Video_02_Thumbnail">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playVideo:" destination="SNf-xM-MgN" eventType="touchUpInside" id="MFi-TF-jQ8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ly-ZQ-XhS">
                                 <rect key="frame" x="181" y="622" width="406" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Video_02_Thumbnail"/>
+                                <accessibility key="accessibilityConfiguration" identifier="video2"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="87"/>
+                                <state key="normal" title="▷" backgroundImage="Video_02_Thumbnail">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playVideo:" destination="SNf-xM-MgN" eventType="touchUpInside" id="9ls-I9-4sL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEi-Or-QZc">
                                 <rect key="frame" x="254" y="856" width="261" height="72"/>
@@ -692,9 +713,6 @@ The museum is open by appointment.  Contact Curator and Physics Professor Jamie 
                                                     <state key="normal" title="▷" backgroundImage="Video_01_Thumbnail">
                                                         <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                                     </state>
-                                                    <connections>
-                                                        <action selector="playVideo:" destination="6gb-BD-iwt" eventType="touchUpInside" id="Odb-nb-j7N"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </view>
@@ -714,9 +732,6 @@ The museum is open by appointment.  Contact Curator and Physics Professor Jamie 
                                                     <state key="normal" title="▷" backgroundImage="Video_02_Thumbnail">
                                                         <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                                     </state>
-                                                    <connections>
-                                                        <action selector="playVideo:" destination="6gb-BD-iwt" eventType="touchUpInside" id="olL-nT-Zl7"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </view>
@@ -736,9 +751,6 @@ The museum is open by appointment.  Contact Curator and Physics Professor Jamie 
                                                     <state key="normal" title="▷" backgroundImage="Video_02_Thumbnail">
                                                         <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                                     </state>
-                                                    <connections>
-                                                        <action selector="playVideo:" destination="6gb-BD-iwt" eventType="touchUpInside" id="i1Y-A8-Xs0"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </view>
@@ -773,6 +785,6 @@ The museum is open by appointment.  Contact Curator and Physics Professor Jamie 
         <segue reference="GjF-om-gzU"/>
         <segue reference="pOO-Kb-5bF"/>
         <segue reference="mzm-c8-0VW"/>
-        <segue reference="5YC-nL-l3k"/>
+        <segue reference="Cg5-4r-did"/>
     </inferredMetricsTieBreakers>
 </document>

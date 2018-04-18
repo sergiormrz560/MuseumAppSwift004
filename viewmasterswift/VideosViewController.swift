@@ -37,8 +37,12 @@ class VideosViewController: UIViewController {
     */
 
     @IBAction func playVideo(_ sender: UIButton) {
-        guard let path = Bundle.main.path(forResource: sender.accessibilityIdentifier, ofType:"m4v") else {
-            debugPrint("museumTrailer.m4v not found")
+        
+        let videoName = sender.accessibilityIdentifier! as String
+        print(videoName)
+        
+        guard let path = Bundle.main.path(forResource: videoName, ofType:"m4v") else {
+            debugPrint("Video not found")
             return
         }
         let player = AVPlayer(url: URL(fileURLWithPath: path))
