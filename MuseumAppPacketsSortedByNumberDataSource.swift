@@ -25,7 +25,7 @@ class MuseumAppPacketsSortedByDateDataSource: NSObject, MuseumAppPacketsTableDat
     }
     var navigationBarName: String {
         get {
-            return "Packets Sorted by Date"
+            return "Artifacts Sorted by Date"
         }
     }
     var tabBarImage: UIImage {

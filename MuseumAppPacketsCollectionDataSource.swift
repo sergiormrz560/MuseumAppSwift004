@@ -25,7 +25,7 @@ class MuseumAppPacketsCollectionDataSource: NSObject, MuseumAppPacketsCollection
     }
     var navigationBarName: String {
         get {
-            return "Packets by Number in Grid"
+            return "Artifacts by Number in Grid"
         }
     }
     var tabBarImage: UIImage {

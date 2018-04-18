@@ -25,7 +25,7 @@ class MuseumAppPacketsSortedByTitleDataSource: NSObject, MuseumAppPacketsTableDa
     }
     var navigationBarName: String {
         get {
-            return "Packets Sorted by Title"
+            return "Artifacts Sorted by Title"
         }
     }
     var tabBarImage: UIImage {

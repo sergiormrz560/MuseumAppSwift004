@@ -25,7 +25,7 @@ class MuseumAppPacketsSortedByCategoryDataSource: NSObject, MuseumAppPacketsTabl
     }
     var navigationBarName: String {
         get {
-            return "Packets Sorted by Category"
+            return "Artifacts Sorted by Category"
         }
     }
     var tabBarImage: UIImage {
