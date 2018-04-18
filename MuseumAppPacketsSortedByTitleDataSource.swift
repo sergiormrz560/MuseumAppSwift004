@@ -123,6 +123,5 @@ class MuseumAppPacketsSortedByTitleDataSource: NSObject, MuseumAppPacketsTableDa
         //    "This is actually a delegate method, but we forward the request to the datasource in the view controller"
         return MuseumAppViewMasterPackets.packetTitleIndexArray![section]
     }
-  
     
 }
