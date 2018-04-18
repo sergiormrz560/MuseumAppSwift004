@@ -369,6 +369,7 @@
 		59E455B21B1B4E3B0061458D /* ViewMasterSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewMasterSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E455B71B1B4E3B0061458D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59E455B81B1B4E3B0061458D /* ViewMasterSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMasterSwiftTests.swift; sourceTree = "<group>"; };
+		C323834C20880BBA00B80A8C /* intro_video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_video.m4v; sourceTree = "<group>"; };
 		C34117F02078239E00913258 /* Intro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Intro1.png; sourceTree = "<group>"; };
 		C34117F12078239E00913258 /* intro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro2.png; sourceTree = "<group>"; };
 		C34117F22078239E00913258 /* intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro.png; sourceTree = "<group>"; };
@@ -834,6 +835,7 @@
 			isa = PBXGroup;
 			children = (
 				C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */,
+				C323834C20880BBA00B80A8C /* intro_video.m4v */,
 				3AEC5F282087CFCE002FEE05 /* intro_video.m4v */,
 				C3411824207824D700913258 /* video1.m4v */,
 				C3411825207824D900913258 /* video2.m4v */,
