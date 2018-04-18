@@ -16,6 +16,8 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: viewController)
     }
     
+   
+    
     lazy var orderedViewControllers: [UIViewController] = {
         return [self.newVc(viewController: "sbRed"),
                 self.newVc(viewController: "sbGreen"),
@@ -23,7 +25,9 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     }()
     
     // MARK: Data source functions.
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore
+        viewController: UIViewController) -> UIViewController? {
+        
         guard let viewControllerIndex = orderedViewControllers.index(of: viewController) else {
             return nil
         }
@@ -85,6 +89,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         self.pageControl.currentPage = orderedViewControllers.index(of: pageContentViewController)!
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.dataSource = self
@@ -100,6 +105,16 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         
         self.delegate = self
         configurePageControl()
+        
+        Timer.scheduledTimer(timeInterval: 5,
+                             target: self,
+                             selector: #selector(self.next(_:)),
+                             userInfo: nil,
+                             repeats: true)
+    }
+    
+    @objc func next(_ timer: Timer) {
+        //viewDidLoad()
     }
     
     override func didReceiveMemoryWarning() {
