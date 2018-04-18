@@ -7,6 +7,11 @@ class MTabBarController: UITabBarController {
         override func viewDidLoad() {
                 super.viewDidLoad()
             
+            // Google: "change backgound color of tab bar swift"
+                // https://stackoverflow.com/questions/36862564/changing-the-background-color-of-tab-bar
+                UITabBar.appearance().barTintColor = UIColor.black
+            
+            
            // var window: UIWindow?
             //    private func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
       //      func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

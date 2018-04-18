@@ -4,53 +4,96 @@
 <array>
 	<dict>
 		<key>category</key>
-		<string>Visitors</string>
+		<string>Medical artifacts</string>
 		<key>date</key>
-		<string>2017 AD</string>
+		<string>1848 AD</string>
 		<key>title</key>
-		<string>A baby visited Transy museum</string>
+		<string>Fetal skeleton, human skull, and a 14-inch hairball</string>
 		<key>imageFileNameBase</key>
-		<string>D1</string>
+		<string>C1</string>
 	</dict>
 	<dict>
 		<key>category</key>
-		<string>Visitors</string>
+		<string>Medical artifacts</string>
 		<key>date</key>
-		<string>2017 AD</string>
+		<string>1848 AD</string>
 		<key>title</key>
-		<string>A woman visited Transy museum</string>
+		<string>Fetal skeleton and human skull</string>
 		<key>imageFileNameBase</key>
-		<string>D2</string>
+		<string>C2</string>
 	</dict>
 	<dict>
 		<key>category</key>
-		<string>Visitors</string>
+		<string>Medical artifacts</string>
 		<key>date</key>
-		<string>2017 AD</string>
+		<string>1848 AD</string>
 		<key>title</key>
-		<string>Ozzy Osbourne and his son, Jack, visited Transy museum </string>
+		<string>Fetal skeletons</string>
 		<key>imageFileNameBase</key>
-		<string>D3</string>
+		<string>C3</string>
 	</dict>
 	<dict>
 		<key>category</key>
-		<string>Visitors</string>
+		<string>Biological artifacts</string>
 		<key>date</key>
 		<string>2017 AD</string>
 		<key>title</key>
-		<string>A boy visited Transy museum </string>
+		<string>Baby figures</string>
 		<key>imageFileNameBase</key>
-		<string>D4</string>
+		<string>C4</string>
 	</dict>
 	<dict>
 		<key>category</key>
-		<string>Visitors</string>
+		<string>Biological artifacts</string>
 		<key>date</key>
 		<string>2017 AD</string>
 		<key>title</key>
-		<string>Signatures of Ozzy Osbourne and his son Jack</string>
+		<string>A man figure</string>
 		<key>imageFileNameBase</key>
-		<string>D5</string>
+		<string>C5</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Biological artifacts</string>
+		<key>date</key>
+		<string>2017 AD</string>
+		<key>title</key>
+		<string>A bird model</string>
+		<key>imageFileNameBase</key>
+		<string>C6</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Medical artifacts</string>
+		<key>date</key>
+		<string>1800 AD</string>
+		<key>title</key>
+		<string>An anatomical model of the human skull</string>
+		<key>imageFileNameBase</key>
+		<string>C8</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Medical artifacts</string>
+		<key>date</key>
+		<string>1820 AD</string>
+		<key>title</key>
+		<string>The wax anatomical model of a woman
+</string>
+		<key>imageFileNameBase</key>
+		<string>C9</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Medical and scientific artifacts
+Medical and scientific artifacts</string>
+		<key>date</key>
+		<string>1800 AD</string>
+		<key>title</key>
+		<string>Medical and scientific instruments
+</string>
+		<key>imageFileNameBase</key>
+		<string>C11</string>
 	</dict>
 </array>
 </plist>

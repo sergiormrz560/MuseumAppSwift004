@@ -24,6 +24,7 @@ class MuseumAppPacketFlippedView: MuseumAppPacketView {
         
         // set the background color of the view to clear
         self.backgroundColor = UIColor.clear
+
     }
     
     required init?(coder aDecoder: NSCoder) {

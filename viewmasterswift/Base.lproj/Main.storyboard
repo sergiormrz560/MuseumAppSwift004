@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="d9f-1p-MRu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="d9f-1p-MRu">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Copperplate.ttc">
-            <string>Copperplate</string>
-        </array>
-        <array key="Georgia.ttf">
-            <string>Georgia</string>
-        </array>
-        <array key="GeorgiaBold.ttf">
-            <string>Georgia-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="1e8-tJ-9Fh">
@@ -545,7 +534,8 @@
             <objects>
                 <navigationController storyboardIdentifier="navForTableView" id="wof-El-Nmt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="ICQ-Ov-eTL"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xHZ-ro-1xP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="xHZ-ro-1xP">
+                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -563,6 +553,7 @@
                     <tabBarItem key="tabBarItem" title="Item" id="Oqg-PQ-ees"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="W2V-ka-0g5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
