@@ -30,7 +30,8 @@ class MuseumAppPacketsTableViewController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.backgroundColor = UIColor.lightGray
+        self.tableView.backgroundColor = UIColor.clear
+        
         
         // [From doc:] "The number of table rows at which to display the index list on the right edge of the table."
         self.tableView.sectionIndexMinimumDisplayRowCount = 10
@@ -42,6 +43,7 @@ class MuseumAppPacketsTableViewController : UITableViewController {
         tempBarButtonItem.title = "See All"
         self.navigationItem.backBarButtonItem = tempBarButtonItem
         self.tableView.separatorStyle = .none
+        
     }
     
     // [Next method: In TheElements, but not in the template...]
