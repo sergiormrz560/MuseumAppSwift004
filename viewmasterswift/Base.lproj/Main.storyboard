@@ -552,7 +552,7 @@
                 <navigationController storyboardIdentifier="navForCollectionView" automaticallyAdjustsScrollViewInsets="NO" id="dWu-XF-6Hd" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Oqg-PQ-ees"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W2V-ka-0g5">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="W2V-ka-0g5">
                         <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -644,9 +644,10 @@ The museum is open by appointment.  Contact Curator and Physics Professor Jamie 
         <image name="intro2.png" width="800" height="305"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="PJB-YL-BrB"/>
         <segue reference="JRd-wJ-MsW"/>
         <segue reference="pOO-Kb-5bF"/>
-        <segue reference="mzm-c8-0VW"/>
+        <segue reference="hDv-yr-Wbc"/>
         <segue reference="Cg5-4r-did"/>
     </inferredMetricsTieBreakers>
 </document>
