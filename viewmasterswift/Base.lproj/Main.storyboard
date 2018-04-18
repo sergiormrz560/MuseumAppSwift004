@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="d9f-1p-MRu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="d9f-1p-MRu">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Copperplate.ttc">
+            <string>Copperplate</string>
+        </array>
+        <array key="Georgia.ttf">
+            <string>Georgia</string>
+        </array>
+        <array key="GeorgiaBold.ttf">
+            <string>Georgia-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="1e8-tJ-9Fh">
@@ -135,7 +146,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SNf-xM-MgN" kind="show" id="cdw-GJ-DSM"/>
+                                    <segue destination="6gb-BD-iwt" kind="show" id="f45-bf-6G0"/>
                                 </connections>
                             </button>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0xt-fM-3LK">
@@ -153,7 +164,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e76-5n-vR3">
-                                <rect key="frame" x="20" y="28" width="728" height="984"/>
+                                <rect key="frame" x="-17" y="-132" width="728" height="976"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -219,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sqi-Kg-LIk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2923" y="1575"/>
+            <point key="canvasLocation" x="-3551" y="2985"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yRf-ql-WMv">
@@ -508,7 +519,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zmz-Xf-5wD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="150" y="1459"/>
+            <point key="canvasLocation" x="150" y="1458.984375"/>
         </scene>
         <!--Museum App Packet View Controller-->
         <scene sceneID="4kK-ek-Kn9">
@@ -535,7 +546,6 @@
                 <navigationController storyboardIdentifier="navForTableView" id="wof-El-Nmt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="ICQ-Ov-eTL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="xHZ-ro-1xP">
-                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -553,7 +563,6 @@
                     <tabBarItem key="tabBarItem" title="Item" id="Oqg-PQ-ees"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="W2V-ka-0g5">
-                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -628,7 +637,124 @@ The museum is open by appointment.  Contact Curator and Physics Professor Jamie 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7D4-eP-g5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3719" y="1459"/>
+            <point key="canvasLocation" x="-3973" y="1561"/>
+        </scene>
+        <!--Videos View Controller-->
+        <scene sceneID="iiU-yn-qZM">
+            <objects>
+                <viewController id="6gb-BD-iwt" customClass="VideosViewController" customModule="ViewMasterSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fIp-Ia-Mo8"/>
+                        <viewControllerLayoutGuide type="bottom" id="m91-f3-P4Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fYw-K2-Qjh">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG_01" translatesAutoresizingMaskIntoConstraints="NO" id="iSF-Bf-1xt">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKj-nU-tby">
+                                <rect key="frame" x="254" y="850" width="261" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="36"/>
+                                <state key="normal" title="BACK" backgroundImage="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="d9f-1p-MRu" kind="show" id="5YC-nL-l3k"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="poV-BX-Ewb">
+                                <rect key="frame" x="86" y="148" width="596" height="637"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cg7-ZV-Db4">
+                                    <size key="itemSize" width="562" height="314"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="videoCollectionViewCell" id="cgA-4c-Egp" customClass="VideoCollectionViewCell" customModule="ViewMasterSwift" customModuleProvider="target">
+                                        <rect key="frame" x="17" y="0.0" width="562" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="562" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQy-Df-ugJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="391" height="314"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="intro_video"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="87"/>
+                                                    <state key="normal" title="▷" backgroundImage="Video_01_Thumbnail">
+                                                        <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="playVideo:" destination="6gb-BD-iwt" eventType="touchUpInside" id="Odb-nb-j7N"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Sv4-k2-EGH">
+                                        <rect key="frame" x="17" y="324" width="562" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="562" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGW-uj-DHM">
+                                                    <rect key="frame" x="20" y="0.0" width="562" height="314"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="video1"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="87"/>
+                                                    <state key="normal" title="▷" backgroundImage="Video_02_Thumbnail">
+                                                        <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="playVideo:" destination="6gb-BD-iwt" eventType="touchUpInside" id="olL-nT-Zl7"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3u7-Oc-3d8">
+                                        <rect key="frame" x="17" y="648" width="562" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="562" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5p8-on-1x4">
+                                                    <rect key="frame" x="0.0" y="0.0" width="562" height="314"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="video2"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="87"/>
+                                                    <state key="normal" title="▷" backgroundImage="Video_02_Thumbnail">
+                                                        <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="playVideo:" destination="6gb-BD-iwt" eventType="touchUpInside" id="i1Y-A8-Xs0"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoCollection" destination="poV-BX-Ewb" id="6nP-em-MJD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zWM-vm-wNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3098.4375" y="1854.4921874999998"/>
         </scene>
     </scenes>
     <resources>
@@ -644,9 +770,9 @@ The museum is open by appointment.  Contact Curator and Physics Professor Jamie 
         <image name="intro2.png" width="800" height="305"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="JRd-wJ-MsW"/>
+        <segue reference="GjF-om-gzU"/>
         <segue reference="pOO-Kb-5bF"/>
         <segue reference="mzm-c8-0VW"/>
-        <segue reference="Cg5-4r-did"/>
+        <segue reference="5YC-nL-l3k"/>
     </inferredMetricsTieBreakers>
 </document>

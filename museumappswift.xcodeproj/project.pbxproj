@@ -13,6 +13,7 @@
 		11E15165207E9CCE00062738 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E15164207E9CCE00062738 /* HomeViewController.swift */; };
 		3A93A367207E88B000FE6AAB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93A366207E88B000FE6AAB /* PageViewController.swift */; };
 		3A93A368207E9E5E00FE6AAB /* museumTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */; };
+		3AEC5F272087CB11002FEE05 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC5F262087CB11002FEE05 /* VideosViewController.swift */; };
 		5948E5A81B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948E5A71B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift */; };
 		5948E5AA1B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948E5A91B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift */; };
 		595A58861B2091FC007957A4 /* TabTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 595A58851B2091FC007957A4 /* TabTitle.png */; };
@@ -334,6 +335,8 @@
 		116B212C207BF5CE00E2787F /* MTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MTabBarController.swift; path = viewmasterswift/MTabBarController.swift; sourceTree = "<group>"; };
 		11E15164207E9CCE00062738 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = viewmasterswift/HomeViewController.swift; sourceTree = "<group>"; };
 		3A93A366207E88B000FE6AAB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		3AEC5F262087CB11002FEE05 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideosViewController.swift; path = viewmasterswift/VideosViewController.swift; sourceTree = "<group>"; };
+		3AEC5F282087CFCE002FEE05 /* intro_video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_video.m4v; sourceTree = "<group>"; };
 		5948E5A71B31F85A003EC566 /* MuseumAppPacketsCollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumAppPacketsCollectionDataSource.swift; sourceTree = "<group>"; };
 		5948E5A91B32037E003EC566 /* MuseumAppPacketCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumAppPacketCollectionViewCell.swift; sourceTree = "<group>"; };
 		595A58851B2091FC007957A4 /* TabTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabTitle.png; sourceTree = "<group>"; };
@@ -390,7 +393,6 @@
 		C341180B2078246200913258 /* D5Front525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D5Front525.png; sourceTree = "<group>"; };
 		C3411824207824D700913258 /* video1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.m4v; sourceTree = "<group>"; };
 		C3411825207824D900913258 /* video2.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.m4v; sourceTree = "<group>"; };
-		C3411826207824D900913258 /* intro_video.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_video.MP4; sourceTree = "<group>"; };
 		C34118272078262700913258 /* C2Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C2Back525.png; sourceTree = "<group>"; };
 		C3411829207826EC00913258 /* D3Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D3Back525.png; sourceTree = "<group>"; };
 		C341182B2078275700913258 /* D4Back525.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D4Back525.png; sourceTree = "<group>"; };
@@ -753,6 +755,7 @@
 				116B212C207BF5CE00E2787F /* MTabBarController.swift */,
 				11E15164207E9CCE00062738 /* HomeViewController.swift */,
 				11013837208509FF00D0AC8E /* CollectionsViewController.swift */,
+				3AEC5F262087CB11002FEE05 /* VideosViewController.swift */,
 				595A5A441B20DAC3007957A4 /* MuseumApp-bridging-header.h */,
 				C3411822207824BE00913258 /* Data */,
 				595A5A351B20D3AB007957A4 /* Single Packet View */,
@@ -828,7 +831,7 @@
 			isa = PBXGroup;
 			children = (
 				C3A0C573207D7EE9008FD6AA /* museumTrailer.m4v */,
-				C3411826207824D900913258 /* intro_video.MP4 */,
+				3AEC5F282087CFCE002FEE05 /* intro_video.m4v */,
 				C3411824207824D700913258 /* video1.m4v */,
 				C3411825207824D900913258 /* video2.m4v */,
 			);
@@ -1533,6 +1536,7 @@
 				59617B261B1E1DA40013149B /* MuseumAppPacketsSortedByTitleDataSource.swift in Sources */,
 				1101383A20850AF600D0AC8E /* GlobalVariables.swift in Sources */,
 				597394F4205C247E00C87E03 /* MuseumAppPacketView.swift in Sources */,
+				3AEC5F272087CB11002FEE05 /* VideosViewController.swift in Sources */,
 				59E455A11B1B4E3B0061458D /* AppDelegate.swift in Sources */,
 				116B212D207BF5CE00E2787F /* MTabBarController.swift in Sources */,
 				11E15165207E9CCE00062738 /* HomeViewController.swift in Sources */,
